@@ -1,0 +1,29 @@
+# exclude folders
+minecraft/.cache
+minecraft/.probe
+minecraft/.vscode
+minecraft/cache
+minecraft/saves
+minecraft/crash-reports
+minecraft/debug
+minecraft/dynamic-data-pack-cache
+minecraft/dynamic-resource-pack-cache
+minecraft/exposures
+minecraft/immersive_paintings_cache
+minecraft/local
+minecraft/logs
+minecraft/mods
+minecraft/saves
+minecraft/schematics
+minecraft/screenshots
+minecraft/simplebackups
+minecraft/xaero
+
+# exclude files
+minecraft/command_history.txt
+minecraft/emi.json
+minecraft/fabricloader.log
+minecraft/ponders_watched.json
+minecraft/usercache.json
+minecraft/usernamecache.json
+minecraft/win_event*.txt

@@ -1,0 +1,136 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "soaring"
+	group: ""
+	id: "5D649E3BFD2E7B31"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "6B2F1A383045DDE2"
+			tasks: [{
+				id: "60F6F06385C6FA8C"
+				item: { count: 1, id: "paraglider:paraglider" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			id: "5164A1909DD78CEE"
+			tasks: [{
+				id: "47724377ECAA0C3E"
+				item: { count: 1, id: "icarus:white_mechanical_feathered_wings" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			id: "399959BEE5E58073"
+			tasks: [{
+				id: "1AA564C677A226A3"
+				item: { count: 1, id: "minecraft:elytra" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5D5210689B63B3D0"]
+			id: "350F5FA661FA83DC"
+			size: 2.0d
+			tasks: [{
+				id: "507C5B9D4AB6EEA2"
+				item: { count: 1, id: "simulated:physics_assembler" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["63FE72C8DDAA0AD4"]
+			id: "63168428A8FCAA1D"
+			tasks: [{
+				id: "123A88F27CD955F3"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(aeronautics:envelope)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["350F5FA661FA83DC"]
+			id: "63FE72C8DDAA0AD4"
+			tasks: [{
+				id: "78952791552112F3"
+				item: { count: 1, id: "aeronautics:adjustable_burner" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 3.0d
+		}
+		{
+			id: "52525DC3C5F21A17"
+			tasks: [{
+				id: "7A28F2C831924936"
+				item: { count: 1, id: "aeronautics:steam_vent" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 9.0d
+		}
+		{
+			id: "4C0EE7356E78A714"
+			tasks: [{
+				id: "47C23664F5B61065"
+				item: { count: 1, id: "aeronautics:propeller_bearing" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 9.0d
+		}
+		{
+			id: "38F454F32754805C"
+			tasks: [{
+				id: "1376253E78CFDEDE"
+				item: { count: 1, id: "aeronautics:gyroscopic_propeller_bearing" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 9.0d
+		}
+		{
+			id: "7B3A138840787F02"
+			tasks: [{
+				id: "320A34F61D0DFDA8"
+				item: { count: 1, id: "simulated:gyroscopic_mechanism" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["350F5FA661FA83DC"]
+			id: "0175CC9DFE489826"
+			tasks: [{
+				id: "6FFAE8DC6BBB0CB1"
+				item: { count: 1, id: "simulated:red_portable_engine" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			id: "395D347440C748C3"
+			tasks: [{
+				id: "5EED5915158CDD1D"
+				item: { count: 1, id: "create:analog_lever" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+	]
+}

@@ -1,0 +1,47 @@
+{
+	chapter.1D7854C2EF41C28C.title: "Engineering"
+	chapter.2DFEFA162458A902.title: "Introductions"
+	chapter.3F0DAB8A4879A6BE.chapter_subtitle: ["Capitalism, in Minecraft"]
+	chapter.3F0DAB8A4879A6BE.title: "Trading"
+	chapter.437D42E50542F67F.title: "Farming"
+	chapter.5D649E3BFD2E7B31.title: "Flight"
+	chapter.600661E33F468F67.title: "Building"
+	chapter.6212B5C9E204C0F8.chapter_subtitle: ["Store Your Stuff"]
+	chapter.6212B5C9E204C0F8.title: "Item Management"
+	quest.02D42B372E6FC138.title: "Ars Storage Lecterns"
+	quest.09AFAD6927F19B34.title: "Ochrum Vent"
+	quest.0EB695DEAB9A5640.title: "Crimsite Vent"
+	quest.0FAAAE1BC0382F9A.title: "Veridium Vent"
+	quest.435CC8146FE93749.quest_desc: ["This is a test"]
+	quest.435CC8146FE93749.title: "HELLO!"
+	quest.4A678610A45D5838.title: "Bundles"
+	quest.4ABD5E78A1859F36.title: "Create Packages"
+	quest.521EC12D24865033.title: "The Aether"
+	quest.5423F901A6A80391.title: "Scorchia Vent"
+	quest.56C33261C14917EE.title: "Sophisticated Barrels"
+	quest.5D5210689B63B3D0.quest_subtitle: "The Journey Begins"
+	quest.5D5210689B63B3D0.title: "Welcome to Create!"
+	quest.5DD8A32858F103DD.quest_desc: ["In order to automate the most fundamental resources, you can find dormant &lMolten Vents&r scattered across the world. Explode them by any means necessary to activate them, and then they will convert lava into their respective blocks."]
+	quest.5DD8A32858F103DD.quest_subtitle: "Geographic Automation"
+	quest.606E802FFC65B491.title: "Asurine Vent"
+	quest.6570E64235904881.quest_desc: [
+		"As a Create-based modpack, it is important to understand the fundamentals of Create before exploring Aeronautics."
+		""
+		"If you are unsure how to proceed, you can follow the Advancements by pressing [L]."
+	]
+	quest.6570E64235904881.quest_subtitle: "The Journey Begins"
+	quest.6570E64235904881.title: "Welcome to Create!"
+	quest.67125C01E9C76836.title: "Traveler's Tool Belts"
+	quest.7721918EFD078FB1.quest_subtitle: "The source of all things"
+	quest.7721918EFD078FB1.title: "Cobblestone"
+	quest.7C71F05C0CCAAFAD.title: "Metal Bundles"
+	quest.7DE745F6F53E644D.quest_subtitle: "Capitalism, in Minecraft"
+	quest.7DE745F6F53E644D.title: "Bank Account"
+	reward_table.1884759BFD4FF3B5.title: "Progress"
+	task.036576DA253CE3B4.title: "Effortless Building"
+	task.08AA9D3633DDBB21.title: "Numismatics"
+	task.0D73C0B206884A98.title: "testing"
+	task.123A88F27CD955F3.title: "Any #aeronautics:envelope"
+	task.1E6D47FEF47CB7CE.title: "Molten Vents"
+	task.1FE1D41013F632F0.title: "Any #numismatics:cards"
+}

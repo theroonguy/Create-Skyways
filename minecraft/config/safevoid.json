@@ -1,0 +1,10 @@
+{
+  "options": {
+    "enabled": true,
+    "playersOnly": true,
+    "minHeight": -5000,
+    "wrapMin": true,
+    "maxHeight": 5000,
+    "wrapMax": true
+  }
+}

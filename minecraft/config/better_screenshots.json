@@ -1,0 +1,10 @@
+{
+  "corner": "BOTTOM_RIGHT",
+  "shutterSound": "SOFT",
+  "animations": true,
+  "animationsMode": "ON",
+  "chatNotification": "MODERN",
+  "flashMode": "PREVIEW",
+  "previewDurationSeconds": 4,
+  "menuButtonPosition": "BOTTOM_LEFT"
+}

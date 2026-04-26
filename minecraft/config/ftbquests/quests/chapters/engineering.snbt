@@ -1,0 +1,255 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "engineering"
+	group: ""
+	icon: {
+		id: "create:wrench"
+	}
+	id: "1D7854C2EF41C28C"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5DD8A32858F103DD"]
+			id: "5423F901A6A80391"
+			tasks: [{
+				id: "58EBDD5C64DF72F4"
+				observe_type: 0
+				timer: 0L
+				to_observe: "molten_vents:dormant_molten_scorchia"
+				type: "observation"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5DD8A32858F103DD"]
+			id: "0FAAAE1BC0382F9A"
+			tasks: [{
+				id: "7A63C996DCC5488D"
+				observe_type: 0
+				timer: 0L
+				to_observe: "molten_vents:dormant_molten_veridium"
+				type: "observation"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0FAAAE1BC0382F9A"]
+			id: "217318FC419C3B6D"
+			tasks: [{
+				id: "195707523B16FAF2"
+				item: { count: 1, id: "create:crushed_raw_copper" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5423F901A6A80391"]
+			id: "3ABD5B046B4AB44F"
+			tasks: [{
+				id: "52E9D40A00EB0088"
+				item: { count: 1, id: "create:cinder_flour" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3ABD5B046B4AB44F"]
+			id: "4235E9E0E8BC6185"
+			tasks: [{
+				id: "754BA24047B7106B"
+				item: { count: 1, id: "minecraft:redstone" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["217318FC419C3B6D"]
+			id: "1A014CCDC0582885"
+			tasks: [{
+				id: "3BA4235D1C3A58D1"
+				item: { count: 1, id: "minecraft:copper_ingot" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5DD8A32858F103DD"]
+			id: "606E802FFC65B491"
+			tasks: [{
+				id: "2149E71989259277"
+				observe_type: 0
+				timer: 0L
+				to_observe: "molten_vents:dormant_molten_asurine"
+				type: "observation"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["606E802FFC65B491"]
+			id: "7D4CC5189DBB085B"
+			tasks: [{
+				id: "2A2F5FE660B5C64E"
+				item: { count: 1, id: "create:crushed_raw_zinc" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7D4CC5189DBB085B"]
+			id: "33FA0225D0496649"
+			tasks: [{
+				id: "47D1C006F64EA0E4"
+				item: { count: 1, id: "create:zinc_ingot" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5DD8A32858F103DD"]
+			id: "09AFAD6927F19B34"
+			tasks: [{
+				id: "19C22F768A4D3019"
+				observe_type: 0
+				timer: 0L
+				to_observe: "molten_vents:dormant_molten_ochrum"
+				type: "observation"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["09AFAD6927F19B34"]
+			id: "06CF6CD15463FA74"
+			tasks: [{
+				id: "2D731ED6CD4E3C35"
+				item: { count: 1, id: "create:crushed_raw_gold" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["06CF6CD15463FA74"]
+			id: "0F4434555AF60E00"
+			tasks: [{
+				id: "22AF4D3B207E2721"
+				item: { count: 1, id: "minecraft:gold_ingot" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5DD8A32858F103DD"]
+			id: "0EB695DEAB9A5640"
+			tasks: [{
+				id: "069873E00A6DD6EF"
+				observe_type: 0
+				timer: 0L
+				to_observe: "molten_vents:dormant_molten_crimsite"
+				type: "observation"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0EB695DEAB9A5640"]
+			id: "43B3893E6E4ECCCC"
+			tasks: [{
+				id: "66AC4582E3219483"
+				item: { count: 1, id: "create:crushed_raw_iron" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["43B3893E6E4ECCCC"]
+			id: "38482B0A18C2E099"
+			tasks: [{
+				id: "2851BC7B4F1EEE17"
+				item: { count: 1, id: "minecraft:iron_ingot" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			id: "5D5210689B63B3D0"
+			rewards: [{
+				id: "4CBB1ADB0F30548E"
+				type: "xp"
+				xp: 100
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "6CEA13F85D49F128"
+				item: { count: 1, id: "create:andesite_alloy" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -5.0d
+		}
+		{
+			id: "7721918EFD078FB1"
+			tasks: [{
+				id: "16BD94819ABAB2D9"
+				item: { count: 1, id: "minecraft:cobblestone" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -3.0d
+		}
+		{
+			id: "213B1D0AD4FB5B65"
+			tasks: [{
+				id: "6760871219530138"
+				item: { count: 1, id: "minecraft:gravel" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -3.0d
+		}
+		{
+			id: "6968140A75044B73"
+			tasks: [{
+				id: "3DBFB37E6B99EC9F"
+				item: { count: 1, id: "minecraft:iron_nugget" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			id: "5DD8A32858F103DD"
+			size: 2.0d
+			tasks: [{
+				id: "1E6D47FEF47CB7CE"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			id: "3D2B1899C9288277"
+			tasks: [{
+				id: "641C93E6204C36D9"
+				item: { count: 1, id: "create:track_station" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -1.0d
+		}
+	]
+}

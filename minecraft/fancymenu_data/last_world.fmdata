@@ -1,0 +1,7 @@
+type = last_world
+
+last_world {
+  is_server = false
+  world = C:/Users/haroo/AppData/Roaming/PrismLauncher/instances/Airborne SMP/minecraft/saves/exploration
+}
+

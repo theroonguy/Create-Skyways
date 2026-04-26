@@ -1,0 +1,6 @@
+{
+	id: "1884759BFD4FF3B5"
+	loot_size: 1
+	order_index: 0
+	rewards: [{ id: "075162577B786339", item: { count: 1, id: "numismatics:sprocket" } }]
+}

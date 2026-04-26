@@ -1,0 +1,153 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "trading"
+	group: ""
+	icon: {
+		id: "numismatics:cog"
+	}
+	id: "3F0DAB8A4879A6BE"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			id: "41B72B5534C8F98C"
+			optional: true
+			rewards: [{
+				count: 2
+				id: "26B0E2C753C19C9C"
+				item: {
+					count: 1
+					id: "numismatics:sprocket"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "34C22C4B75C94A54"
+				item: { count: 1, id: "create:precision_mechanism" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			id: "1E8ACA68C31E274C"
+			optional: true
+			rewards: [{
+				id: "6BC5C0ABC35AA00C"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "2438AD349AE9357E"
+				item: { count: 1, id: "ars_nouveau:wilden_tribute" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			id: "7DE745F6F53E644D"
+			rewards: [{
+				id: "1C14468E45643BF0"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				consume_items: false
+				id: "1FE1D41013F632F0"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(numismatics:cards)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			id: "085C5D98C6AB1441"
+			tasks: [{
+				consume_items: false
+				id: "62E59A58F102376C"
+				item: { count: 1, id: "numismatics:vendor" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 2.5d
+		}
+		{
+			can_repeat: true
+			id: "114876C222DCFE8B"
+			optional: true
+			rewards: [{
+				id: "6A2FB342ED0C63A3"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "50382D0A4EB237F7"
+				item: { count: 1, id: "minecraft:diamond" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			id: "534162E8DC430B92"
+			optional: true
+			rewards: [{
+				id: "5CA320E78E2AB9FE"
+				item: {
+					count: 1
+					id: "numismatics:bevel"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "242B1CB22D07E07D"
+				item: { count: 1, id: "minecraft:copper_ingot" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			id: "465452B5709956AF"
+			rewards: [{
+				count: 4
+				id: "7419398665505070"
+				item: {
+					count: 1
+					id: "numismatics:sprocket"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "62A4ECCE514B54E2"
+				item: { count: 1, id: "ars_technica:calibrated_precision_mechanism" }
+				optional_task: true
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+	]
+}
