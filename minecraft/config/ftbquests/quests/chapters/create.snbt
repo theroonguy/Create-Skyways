@@ -2,9 +2,9 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "create"
-	group: ""
+	group: "1653400F3F15164B"
 	icon: {
-		id: "createcafe:strawberry_milk_tea"
+		id: "kubejs:aether_frame"
 	}
 	id: "2DFEFA162458A902"
 	images: [
@@ -92,21 +92,6 @@
 	order_index: 0
 	quest_links: [ ]
 	quests: [
-		{
-			id: "6570E64235904881"
-			rewards: [{
-				id: "45D5FF2F73A03C49"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "070BF52450E6B114"
-				item: { count: 1, id: "create:andesite_alloy" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 0.0d
-		}
 		{
 			dependencies: [
 				"20777EB58E0114EE"

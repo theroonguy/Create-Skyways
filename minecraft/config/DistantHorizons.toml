@@ -658,7 +658,7 @@ _version = 4
 				blocksToIgnore = "NON_COLLIDING"
 				#
 				# The radius of the mod's render distance. (measured in chunks)
-				lodChunkRenderDistanceRadius = 256
+				lodChunkRenderDistanceRadius = 64
 				#
 				# How should the sides and bottom of grass block LODs render? 
 				# 
@@ -720,7 +720,7 @@ _version = 4
 				# 0.0: Fog starts at the player's position. 
 				# 1.0: Fog starts at the closest edge of the vanilla render distance. 
 				# 1.414: Fog starts at the corner of the vanilla render distance.
-				farFogStart = "0.4"
+				farFogStart = "0.01"
 				#
 				# What is the minimum fog thickness? 
 				# 
@@ -739,7 +739,7 @@ _version = 4
 				# LINEAR: Linear based on distance (will ignore 'density')
 				# EXPONENTIAL: 1/(e^(distance*density)) 
 				# EXPONENTIAL_SQUARED: 1/(e^((distance*density)^2)
-				farFogFalloff = "EXPONENTIAL_SQUARED"
+				farFogFalloff = "EXPONENTIAL"
 				#
 				# Used in conjunction with the Fog Falloff.
 				farFogDensity = "2.5"

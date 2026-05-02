@@ -2,5 +2,28 @@
 	id: "1884759BFD4FF3B5"
 	loot_size: 1
 	order_index: 0
-	rewards: [{ id: "075162577B786339", item: { count: 1, id: "numismatics:sprocket" } }]
+	rewards: [
+		{
+			id: "075162577B786339"
+			item: {
+				count: 1
+				id: "numismatics:sprocket"
+			}
+			weight: 4.0f
+		}
+		{ id: "06CC7BB71C21C4A4", item: { count: 1, id: "numismatics:cog" } }
+		{
+			id: "46E4C519F84650AB"
+			type: "xp"
+			xp: 100
+		}
+		{
+			id: "5C01A47C7C3D06BE"
+			item: {
+				count: 1
+				id: "numismatics:bevel"
+			}
+			weight: 2.0f
+		}
+	]
 }

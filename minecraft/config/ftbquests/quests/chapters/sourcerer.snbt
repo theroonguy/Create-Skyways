@@ -1,0 +1,15 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "sourcerer"
+	group: "758160106C477F5B"
+	id: "6807243F07A00BD3"
+	order_index: 5
+	quest_links: [{
+		id: "3E90871601DD60D4"
+		linked_quest: "384D109010014537"
+		x: 0.0d
+		y: 0.0d
+	}]
+	quests: [ ]
+}

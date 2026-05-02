@@ -2,9 +2,63 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "farming"
-	group: ""
+	group: "758160106C477F5B"
 	id: "437D42E50542F67F"
-	order_index: 4
+	order_index: 2
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: ["6DF6171AF0F6F932"]
+			id: "2B30BCDB739CF4F8"
+			tasks: [{
+				id: "085F9847EDD42D6F"
+				item: { count: 1, id: "farmersdelight:cutting_board" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			id: "6DF6171AF0F6F932"
+			tasks: [{
+				id: "2F5C195B7848896C"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(farmersdelight:tools/knives)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["237A25102BE8867A"]
+			id: "5EC3497F29FBAD9C"
+			tasks: [{
+				id: "7EA5F9CC3F2CBB63"
+				item: { count: 1, id: "farmersdelight:skillet" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -0.5d
+		}
+		{
+			id: "14241E7425A0E59C"
+			tasks: [{
+				id: "40C57A9BF6628625"
+				item: { count: 1, id: "farmersdelight:cooking_pot" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["14241E7425A0E59C"]
+			id: "237A25102BE8867A"
+			tasks: [{
+				id: "46D664E3DC50D5F1"
+				item: { count: 1, id: "farmersdelight:stove" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+	]
 }

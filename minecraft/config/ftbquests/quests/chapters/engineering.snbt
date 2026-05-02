@@ -2,12 +2,12 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "engineering"
-	group: ""
+	group: "758160106C477F5B"
 	icon: {
-		id: "create:wrench"
+		id: "aeronautics:aviators_goggles"
 	}
 	id: "1D7854C2EF41C28C"
-	order_index: 6
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -186,52 +186,6 @@
 			y: 3.0d
 		}
 		{
-			id: "5D5210689B63B3D0"
-			rewards: [{
-				id: "4CBB1ADB0F30548E"
-				type: "xp"
-				xp: 100
-			}]
-			size: 2.0d
-			tasks: [{
-				id: "6CEA13F85D49F128"
-				item: { count: 1, id: "create:andesite_alloy" }
-				type: "item"
-			}]
-			x: -6.0d
-			y: -5.0d
-		}
-		{
-			id: "7721918EFD078FB1"
-			tasks: [{
-				id: "16BD94819ABAB2D9"
-				item: { count: 1, id: "minecraft:cobblestone" }
-				type: "item"
-			}]
-			x: -7.5d
-			y: -3.0d
-		}
-		{
-			id: "213B1D0AD4FB5B65"
-			tasks: [{
-				id: "6760871219530138"
-				item: { count: 1, id: "minecraft:gravel" }
-				type: "item"
-			}]
-			x: -6.0d
-			y: -3.0d
-		}
-		{
-			id: "6968140A75044B73"
-			tasks: [{
-				id: "3DBFB37E6B99EC9F"
-				item: { count: 1, id: "minecraft:iron_nugget" }
-				type: "item"
-			}]
-			x: -4.5d
-			y: -3.0d
-		}
-		{
 			id: "5DD8A32858F103DD"
 			size: 2.0d
 			tasks: [{
@@ -242,14 +196,14 @@
 			y: -2.0d
 		}
 		{
-			id: "3D2B1899C9288277"
+			id: "314705C1EA3FA649"
 			tasks: [{
-				id: "641C93E6204C36D9"
-				item: { count: 1, id: "create:track_station" }
+				id: "07A945D94EE36A71"
+				item: { count: 1, id: "aeronautics:aviators_goggles" }
 				type: "item"
 			}]
-			x: -7.5d
-			y: -1.0d
+			x: -5.5d
+			y: -2.0d
 		}
 	]
 }

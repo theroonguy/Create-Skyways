@@ -1,0 +1,136 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "introduction"
+	group: ""
+	icon: {
+		id: "createcafe:strawberry_milk_tea"
+	}
+	id: "4B12125995746416"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["437F1A5F4939D457"]
+			id: "1047E6355C1B7896"
+			rewards: [
+				{
+					id: "59D0C890318C2371"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4A54AF6D192CA629"
+					table_id: 1766666266666333109L
+					type: "all_table"
+				}
+			]
+			tasks: [{
+				id: "32A445A1ABC218F3"
+				item: { count: 1, id: "create:andesite_alloy" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			id: "437F1A5F4939D457"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "23BA9DD4BD042CE3"
+					table_id: 1766666266666333109L
+					type: "all_table"
+				}
+				{
+					id: "300ED0F73E814516"
+					item: {
+						count: 1
+						id: "paraglider:paraglider"
+					}
+					type: "item"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				id: "0A8BEAAF47DB1ED3"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["437F1A5F4939D457"]
+			id: "384D109010014537"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "33C6706D06BE0348"
+					table_id: 1766666266666333109L
+					type: "all_table"
+				}
+				{
+					id: "621271AEC0C7BC27"
+					item: {
+						count: 1
+						id: "ars_nouveau:worn_notebook"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "411F0D5350FF19D9"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:logs/archwood)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -1.0d
+		}
+		{
+			icon: {
+				id: "paraglider:paraglider"
+			}
+			id: "5FAF9DC33A8120CF"
+			tasks: [{
+				id: "5E51E9F92F6C0EDA"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["437F1A5F4939D457"]
+			id: "764347D861948562"
+			tasks: [{
+				id: "6FA982EE73A2E742"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:seeds)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["437F1A5F4939D457"]
+			id: "5D981D87CFBB9AB2"
+			tasks: [{
+				id: "22B52205411F76A3"
+				item: { count: 1, id: "paraglider:paraglider" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["437F1A5F4939D457"]
+			id: "035873276BCC8FF7"
+			tasks: [{
+				id: "5CBCD44AF4288804"
+				item: { count: 1, id: "rechiseled:chisel" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -2.5d
+		}
+	]
+}

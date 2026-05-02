@@ -1,0 +1,27 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "pilot"
+	group: "758160106C477F5B"
+	icon: {
+		id: "create:wrench"
+	}
+	id: "397096E7EF9998B5"
+	order_index: 4
+	quest_links: [{
+		id: "3527FE9AE10D2504"
+		linked_quest: "1047E6355C1B7896"
+		x: -0.5d
+		y: 0.0d
+	}]
+	quests: [{
+		id: "7FF6D95C5A785F43"
+		tasks: [{
+			id: "54F74B63E44E917C"
+			item: { count: 1, id: "create:wrench" }
+			type: "item"
+		}]
+		x: 3.5d
+		y: 0.0d
+	}]
+}

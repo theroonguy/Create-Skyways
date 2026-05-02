@@ -2,30 +2,19 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "building"
-	group: ""
+	group: "758160106C477F5B"
+	icon: {
+		id: "rechiseled:chisel"
+	}
 	id: "600661E33F468F67"
 	order_index: 3
-	quest_links: [ ]
+	quest_links: [{
+		id: "57AAE96355A8C736"
+		linked_quest: "035873276BCC8FF7"
+		x: 2.5d
+		y: 0.0d
+	}]
 	quests: [
-		{
-			id: "5620330E9F376C6F"
-			tasks: [{
-				id: "036576DA253CE3B4"
-				type: "checkmark"
-			}]
-			x: 0.0d
-			y: 0.0d
-		}
-		{
-			id: "7E9A95BB2AD50219"
-			tasks: [{
-				id: "547D01FF8E1C16C8"
-				item: { count: 1, id: "rechiseled:chisel" }
-				type: "item"
-			}]
-			x: 2.5d
-			y: 0.0d
-		}
 		{
 			id: "77D0DA4CEBEBDE35"
 			tasks: [{
@@ -34,6 +23,11 @@
 				type: "item"
 			}]
 			x: 4.5d
+			y: 0.0d
+		}
+		{
+			id: "7EEBDAA73D847777"
+			x: 7.0d
 			y: 0.0d
 		}
 	]

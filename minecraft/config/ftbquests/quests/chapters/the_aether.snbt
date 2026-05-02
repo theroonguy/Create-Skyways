@@ -1,0 +1,19 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_aether"
+	group: "1653400F3F15164B"
+	hide_quest_details_until_startable: true
+	icon: {
+		id: "aether:aether_grass_block"
+	}
+	id: "11E83CF66FCD2FF4"
+	order_index: 1
+	quest_links: [{
+		id: "52B929408C123D32"
+		linked_quest: "521EC12D24865033"
+		x: -1.0d
+		y: 0.5d
+	}]
+	quests: [ ]
+}
