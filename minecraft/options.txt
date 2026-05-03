@@ -58,7 +58,7 @@ chatLineSpacing:0.0
 textBackgroundOpacity:0.5
 backgroundForChatOnly:true
 hideServerAddress:false
-advancedItemTooltips:false
+advancedItemTooltips:true
 pauseOnLostFocus:true
 overrideWidth:0
 overrideHeight:0
@@ -295,7 +295,7 @@ key_key.freecam.configGui:key.keyboard.unknown
 key_key.craftpresence.config_keycode.name:key.keyboard.grave.accent
 key_key.entityculling.toggle:key.keyboard.unknown
 soundCategory_master:0.14679911699779244
-soundCategory_music:0.0
+soundCategory_music:1.0
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0

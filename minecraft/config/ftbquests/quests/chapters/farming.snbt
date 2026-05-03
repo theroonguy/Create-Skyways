@@ -5,7 +5,12 @@
 	group: "758160106C477F5B"
 	id: "437D42E50542F67F"
 	order_index: 2
-	quest_links: [ ]
+	quest_links: [{
+		id: "41F2A61FD5051ED2"
+		linked_quest: "764347D861948562"
+		x: 6.0d
+		y: -5.0d
+	}]
 	quests: [
 		{
 			dependencies: ["6DF6171AF0F6F932"]
@@ -19,6 +24,7 @@
 			y: -0.5d
 		}
 		{
+			dependencies: ["764347D861948562"]
 			id: "6DF6171AF0F6F932"
 			tasks: [{
 				id: "2F5C195B7848896C"
@@ -36,18 +42,19 @@
 				item: { count: 1, id: "farmersdelight:skillet" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: -0.5d
+			x: 10.0d
+			y: -2.5d
 		}
 		{
+			dependencies: ["764347D861948562"]
 			id: "14241E7425A0E59C"
 			tasks: [{
 				id: "40C57A9BF6628625"
 				item: { count: 1, id: "farmersdelight:cooking_pot" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: -0.5d
+			x: 8.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["14241E7425A0E59C"]
@@ -57,8 +64,19 @@
 				item: { count: 1, id: "farmersdelight:stove" }
 				type: "item"
 			}]
+			x: 8.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["764347D861948562"]
+			id: "079F149BF68901D4"
+			tasks: [{
+				id: "304EE2D794BE1D51"
+				item: { count: 1, id: "minecraft:campfire" }
+				type: "item"
+			}]
 			x: 6.0d
-			y: 1.5d
+			y: -2.5d
 		}
 	]
 }

@@ -87,8 +87,8 @@
 				item: { count: 1, id: "aeronautics:propeller_bearing" }
 				type: "item"
 			}]
-			x: 9.0d
-			y: 9.0d
+			x: 15.0d
+			y: 6.0d
 		}
 		{
 			id: "38F454F32754805C"
@@ -97,8 +97,8 @@
 				item: { count: 1, id: "aeronautics:gyroscopic_propeller_bearing" }
 				type: "item"
 			}]
-			x: 10.5d
-			y: 9.0d
+			x: 15.0d
+			y: 7.5d
 		}
 		{
 			id: "7B3A138840787F02"
@@ -107,8 +107,8 @@
 				item: { count: 1, id: "simulated:gyroscopic_mechanism" }
 				type: "item"
 			}]
-			x: 12.5d
-			y: 7.5d
+			x: 10.0d
+			y: 11.0d
 		}
 		{
 			dependencies: ["350F5FA661FA83DC"]
@@ -130,6 +130,16 @@
 			}]
 			x: 5.0d
 			y: 3.0d
+		}
+		{
+			id: "1F9D92AA8DB7D5BA"
+			tasks: [{
+				id: "3E74B3E170F5562B"
+				item: { count: 1, id: "simulated:white_symmetric_sail" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 9.0d
 		}
 	]
 }

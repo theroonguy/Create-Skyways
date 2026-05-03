@@ -26,8 +26,143 @@
 			y: 0.0d
 		}
 		{
-			id: "7EEBDAA73D847777"
-			x: 7.0d
+			id: "44A69612B7A74FB0"
+			tasks: [{
+				id: "6F7EF97D163F8E57"
+				item: { count: 1, id: "create:wand_of_symmetry" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			id: "336D87FAC05551F2"
+			tasks: [{
+				id: "51AFA56865A12C83"
+				item: { count: 1, id: "create:extendo_grip" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			id: "21179EDC9FEB70B5"
+			tasks: [{
+				id: "10C0875A7B2C03F5"
+				item: { count: 1, id: "create:industrial_iron_block" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			id: "277C63476A28EDF3"
+			tasks: [{
+				id: "0BB327AB5652D5CB"
+				item: { count: 1, id: "morebridges:industrial_bridge" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.5d
+		}
+		{
+			id: "11B7C9267BA7DFEA"
+			tasks: [{
+				id: "128EA13EB1ED8D99"
+				item: { count: 1, id: "morebridges:industrial_bridge_stair" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 3.0d
+		}
+		{
+			id: "64F6ED6286B89D97"
+			tasks: [{
+				id: "0490582E0053F41F"
+				item: { count: 1, id: "mcwbridges:pliers" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 4.5d
+		}
+		{
+			id: "666D5272DE3EEC12"
+			tasks: [{
+				id: "45F308D555921BAB"
+				item: { count: 1, id: "immersive_paintings:painting" }
+				type: "item"
+			}]
+			x: 16.5d
+			y: 0.0d
+		}
+		{
+			id: "39CACE18C3CE0365"
+			tasks: [{
+				id: "085CEF571EC594F1"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(handcrafted:cushions)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 1.5d
+		}
+		{
+			id: "53F185FE078E7BE0"
+			tasks: [{
+				id: "3F6D6AA005C632D6"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(handcrafted:chairs)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			id: "16331D059DD18C4F"
+			tasks: [{
+				id: "2844FCD141C77693"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(handcrafted:fancy_beds)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 3.0d
+		}
+		{
+			id: "23C1272B40B8F462"
+			tasks: [{
+				id: "7D568E180743B0F4"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(handcrafted:sheets)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 4.5d
+		}
+		{
+			id: "771656635B1B4E4F"
+			tasks: [{
+				id: "6CFD732677183D9E"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(handcrafted:couches)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 6.0d
+		}
+		{
+			id: "60EDC593BC5977E3"
+			tasks: [{
+				id: "611762CFECCC12B4"
+				item: { count: 1, id: "magnumtorch:diamond_magnum_torch" }
+				type: "item"
+			}]
+			x: 14.5d
+			y: 0.0d
+		}
+		{
+			id: "6DD78A9BE2924C4E"
+			tasks: [{
+				id: "5BF6668DE9722A80"
+				item: { count: 1, id: "copycats:copycat_slope" }
+				type: "item"
+			}]
+			x: 18.5d
 			y: 0.0d
 		}
 	]

@@ -90,7 +90,20 @@
 		}
 	]
 	order_index: 0
-	quest_links: [ ]
+	quest_links: [
+		{
+			id: "1A79E809CC54AA54"
+			linked_quest: "3EB47721C54AA402"
+			x: 13.0d
+			y: 1.5d
+		}
+		{
+			id: "605F91947AD73A45"
+			linked_quest: "2C7CF819DAA25075"
+			x: 13.0d
+			y: 3.5d
+		}
+	]
 	quests: [
 		{
 			dependencies: [
@@ -160,8 +173,9 @@
 		}
 		{
 			dependencies: [
-				"49BF44774E56F2F7"
 				"5A18588E6E2210C9"
+				"3EB47721C54AA402"
+				"2C7CF819DAA25075"
 			]
 			id: "30DDCB3C19C24F29"
 			tasks: [{
@@ -171,27 +185,6 @@
 			}]
 			x: 14.5d
 			y: 0.0d
-		}
-		{
-			dependencies: ["4D1D1795DDC6FC74"]
-			id: "49BF44774E56F2F7"
-			tasks: [{
-				id: "1AB8F0ABB2D3001C"
-				item: { count: 1, id: "ars_nouveau:enchanting_apparatus" }
-				type: "item"
-			}]
-			x: 13.0d
-			y: 1.5d
-		}
-		{
-			id: "4D1D1795DDC6FC74"
-			tasks: [{
-				id: "142641E4FF66AA61"
-				item: { count: 1, id: "ars_nouveau:source_gem" }
-				type: "item"
-			}]
-			x: 11.0d
-			y: 1.5d
 		}
 		{
 			dependencies: ["6109973FADFF2E55"]
@@ -299,6 +292,36 @@
 			}]
 			x: 23.5d
 			y: 0.0d
+		}
+		{
+			id: "22637C43498D2A4A"
+			tasks: [{
+				id: "37F1BDF01551B7E0"
+				item: { count: 1, id: "create:empty_blaze_burner" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			id: "739FE16B1451530C"
+			tasks: [{
+				id: "028FA7CF2A60F9A3"
+				item: { count: 1, id: "create:zinc_ingot" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.5d
+		}
+		{
+			id: "2E1EAE3181065E0C"
+			tasks: [{
+				id: "3AA4EEAE9B5642C3"
+				item: { count: 1, id: "minecraft:copper_ingot" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
 		}
 	]
 }

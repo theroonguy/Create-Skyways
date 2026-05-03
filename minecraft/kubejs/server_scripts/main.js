@@ -40,6 +40,15 @@ ServerEvents.recipes(event => {
     })
 })
 
+ServerEvents.tags('item', event => {
+    event.add('c:ingots/industrial_iron', 'morebridges:industrial_iron_ingot')
+})
+
+ServerEvents.recipes(event => {
+    event.replaceInput({}, 'morebridges:industrial_iron_ingot', '#c:ingots/industrial_iron')
+    event.replaceInput({}, 'createdeco:industrial_iron_ingot', '#c:ingots/industrial_iron')
+})
+
 // EntityEvents.hurt(event => {
 //     // Check if the entity getting hurt is a player
 //     if (!event.entity.isPlayer()) return

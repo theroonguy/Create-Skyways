@@ -5,12 +5,25 @@
 	group: ""
 	id: "6212B5C9E204C0F8"
 	order_index: 1
-	quest_links: [ ]
+	quest_links: [
+		{
+			id: "0A72D6E90C0D51CE"
+			linked_quest: "4EFDA1DD416CBE7D"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			id: "3E4EBD2397A1B0C1"
+			linked_quest: "4F19C6503B5AB10F"
+			x: -2.5d
+			y: -3.0d
+		}
+	]
 	quests: [
 		{
 			dependencies: [
 				"2D15FF71E179CE6C"
-				"2EF9B340969A1D2E"
+				"4EFDA1DD416CBE7D"
 			]
 			id: "02D42B372E6FC138"
 			size: 2.0d
@@ -62,18 +75,7 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["288B794719DDE331"]
-			id: "2EF9B340969A1D2E"
-			tasks: [{
-				id: "655825241DC2F046"
-				item: { count: 1, id: "ars_nouveau:dominion_wand" }
-				type: "item"
-			}]
-			x: -1.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["7012A1F343EE1018"]
+			dependencies: ["4F19C6503B5AB10F"]
 			id: "2D15FF71E179CE6C"
 			tasks: [{
 				id: "5F643194CFEFC81B"
@@ -82,28 +84,6 @@
 			}]
 			x: -2.5d
 			y: -1.5d
-		}
-		{
-			dependencies: ["6C1373BFBA92DE54"]
-			dependency_requirement: "one_completed"
-			id: "7012A1F343EE1018"
-			tasks: [{
-				id: "637279C557738E55"
-				item: { count: 1, id: "ars_nouveau:ritual_brazier" }
-				type: "item"
-			}]
-			x: -2.5d
-			y: -3.0d
-		}
-		{
-			id: "6C1373BFBA92DE54"
-			tasks: [{
-				id: "069F429E423600FB"
-				item: { count: 1, id: "ars_nouveau:arcane_pedestal" }
-				type: "item"
-			}]
-			x: -2.5d
-			y: -4.5d
 		}
 		{
 			id: "4A678610A45D5838"
@@ -280,16 +260,6 @@
 			}]
 			x: 14.5d
 			y: 4.0d
-		}
-		{
-			id: "288B794719DDE331"
-			tasks: [{
-				id: "7CFEDC2482417F6C"
-				item: { count: 1, id: "ars_nouveau:enchanting_apparatus" }
-				type: "item"
-			}]
-			x: -0.5d
-			y: -1.5d
 		}
 		{
 			id: "4BCDD46C67CBA8EF"

@@ -14,14 +14,86 @@
 		x: -0.5d
 		y: 0.0d
 	}]
-	quests: [{
-		id: "7FF6D95C5A785F43"
-		tasks: [{
-			id: "54F74B63E44E917C"
-			item: { count: 1, id: "create:wrench" }
-			type: "item"
-		}]
-		x: 3.5d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			id: "7FF6D95C5A785F43"
+			tasks: [{
+				id: "54F74B63E44E917C"
+				item: { count: 1, id: "create:wrench" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			id: "1B572FAD39F1E407"
+			tasks: [{
+				id: "4C14CDE111DDF6C7"
+				item: { count: 1, id: "minecraft:cobblestone" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			id: "25554FAEC02CD8C9"
+			tasks: [{
+				id: "0A1EF1372BF3BC82"
+				item: { count: 1, id: "minecraft:water_bucket" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			id: "04E8C6DF9457A668"
+			tasks: [{
+				id: "6F0BF107FB557C1E"
+				item: { count: 1, id: "minecraft:lava_bucket" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 3.0d
+		}
+		{
+			id: "19C8FDF6EAEE4D7D"
+			tasks: [{
+				id: "3B15945EEBC9BA27"
+				item: { count: 1, id: "minecraft:gravel" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			id: "03A3741EE703B41C"
+			tasks: [{
+				id: "3E0B2B6E75839AB5"
+				item: { count: 1, id: "create:mechanical_drill" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 4.5d
+		}
+		{
+			id: "3D2E72E02AE4CA4C"
+			tasks: [{
+				id: "519C31BA71819D60"
+				item: { count: 1, id: "create:millstone" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.5d
+		}
+		{
+			id: "62600C500A913461"
+			tasks: [{
+				id: "739BE31522398713"
+				item: { count: 1, id: "create:encased_fan" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.5d
+		}
+	]
 }

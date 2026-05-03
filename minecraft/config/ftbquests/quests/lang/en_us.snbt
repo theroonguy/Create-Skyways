@@ -21,19 +21,22 @@
 	chapter_group.1653400F3F15164B.title: "Quests"
 	chapter_group.758160106C477F5B.title: "Disciplines"
 	quest.02D42B372E6FC138.title: "Ars Storage Lecterns"
-	quest.035873276BCC8FF7.title: "Builder"
+	quest.035873276BCC8FF7.quest_desc: ["There is no home without shelter. As a Builder, you will erect the cities that house our community--in style! Those pesky engineers will make a mess out of their factories. Perhaps you can earn a pretty penny for covering them up!"]
+	quest.035873276BCC8FF7.title: "Building"
 	quest.09AFAD6927F19B34.title: "Ochrum Vent"
 	quest.0EB695DEAB9A5640.title: "Crimsite Vent"
 	quest.0FAAAE1BC0382F9A.title: "Veridium Vent"
 	quest.1047E6355C1B7896.quest_desc: [
-		"As a Create-based modpack, it is important to understand the fundamentals of Create before exploring Aeronautics."
+		"As an Engineer, you will design and construct the beating heart of the technology that will take us to the Aether. You will automate resources, make factories to process them and assemble the airships that run this world."
 		""
-		"If you are unsure how to proceed, you can follow the Advancements by pressing [L]."
+		"It's tough work, but with time you can harness the machines to take you, and everyone else, to the Sky."
 	]
 	quest.1047E6355C1B7896.quest_subtitle: "The Journey Begins"
 	quest.1047E6355C1B7896.title: "Engineering"
+	quest.384D109010014537.quest_desc: ["In this profession you will discover and harness the underlying arcane energy that flows throughout this world: Source. Not only is the only way to the Aether through incredible volumes of it, but with this knowledge comes unimaginable powers that can let you bend the forces to your will."]
 	quest.384D109010014537.quest_subtitle: "I Like Your Funny Words, Magic Man"
 	quest.384D109010014537.title: "Sourcering"
+	quest.3EB47721C54AA402.title: "Arcane Enchanting"
 	quest.435CC8146FE93749.quest_desc: ["This is a test"]
 	quest.435CC8146FE93749.title: "HELLO!"
 	quest.437F1A5F4939D457.quest_desc: [
@@ -54,12 +57,19 @@
 		"Now, where did I put my glider...?"
 	]
 	quest.437F1A5F4939D457.quest_subtitle: "My Way or the Skyway"
+	quest.4399FD99AFDFFA6F.quest_desc: [
+		"As a Create-based modpack, it is important to understand the fundamentals of Create before exploring Aeronautics."
+		""
+		"If you are unsure how to proceed, you can follow the Advancements by pressing [L]. This generally works for other important mods as well, like Ars Nouveau."
+	]
+	quest.4399FD99AFDFFA6F.quest_subtitle: "Gotta Start Somewhere!"
 	quest.4A678610A45D5838.title: "Bundles"
 	quest.4ABD5E78A1859F36.title: "Create Packages"
 	quest.521EC12D24865033.title: "The Aether"
 	quest.5423F901A6A80391.title: "Scorchia Vent"
 	quest.56C33261C14917EE.title: "Sophisticated Barrels"
-	quest.5D981D87CFBB9AB2.title: "Pilot"
+	quest.5D981D87CFBB9AB2.quest_desc: ["As an Aviator, you will explore the world by sky and reap its rewards, bringing back vast wealth to your community. You will design and construct the airships that will both bridge our peoples and take us further than ever before."]
+	quest.5D981D87CFBB9AB2.title: "Piloting"
 	quest.5DD8A32858F103DD.quest_desc: ["In order to automate the most fundamental resources, you can find dormant &lMolten Vents&r scattered across the world. Explode them by any means necessary to activate them, and then they will convert lava into their respective blocks."]
 	quest.5DD8A32858F103DD.quest_subtitle: "Geographic Automation"
 	quest.5FAF9DC33A8120CF.quest_desc: [
@@ -69,24 +79,36 @@
 	]
 	quest.5FAF9DC33A8120CF.title: "TIP: Life in the Skies"
 	quest.606E802FFC65B491.title: "Asurine Vent"
+	quest.666D5272DE3EEC12.quest_desc: ["Using ImmersivePaintings, you can upload any picture, screenshot, or URL to bring images from your computer into this world! It's pretty cool try it out."]
+	quest.666D5272DE3EEC12.quest_subtitle: "A Man Can Meme"
+	quest.666D5272DE3EEC12.title: "Custom Paintings"
 	quest.67125C01E9C76836.title: "Traveler's Tool Belts"
 	quest.6DF6171AF0F6F932.quest_subtitle: "Chef's Best Friend"
 	quest.6DF6171AF0F6F932.title: "Knife"
+	quest.764347D861948562.quest_desc: ["Ah, the humble Farmer: the most therapeutic role, and also the most supportive. The only resource that will never lose its value is sustenance. Here, you will turn food from a chore into an art, and make a pretty penny while you're at it."]
 	quest.764347D861948562.quest_subtitle: "The Breadbasket"
-	quest.764347D861948562.title: "Farmer/Chef"
+	quest.764347D861948562.title: "Farming/Cooking"
 	quest.7C71F05C0CCAAFAD.title: "Metal Bundles"
 	quest.7DE745F6F53E644D.quest_subtitle: "Capitalism, in Minecraft"
 	quest.7DE745F6F53E644D.title: "Bank Account"
 	reward_table.1884759BFD4FF3B5.title: "Progress"
 	task.036576DA253CE3B4.title: "Effortless Building"
+	task.085CEF571EC594F1.title: "Any #handcrafted:cushions"
 	task.08AA9D3633DDBB21.title: "Numismatics"
 	task.0A8BEAAF47DB1ED3.title: "Welcome to Create: Skyways!"
 	task.0D73C0B206884A98.title: "testing"
 	task.123A88F27CD955F3.title: "Any #aeronautics:envelope"
 	task.1E6D47FEF47CB7CE.title: "Molten Vents"
 	task.1FE1D41013F632F0.title: "Any #numismatics:cards"
+	task.21575CFD5311F3D6.title: "Any #create:stone_types/asurine"
+	task.2844FCD141C77693.title: "Any #handcrafted:fancy_beds"
+	task.2F2A88186C95C034.title: "Understanding Source"
 	task.2F5C195B7848896C.title: "Any #farmersdelight:tools/knives"
+	task.3F6D6AA005C632D6.title: "Any #handcrafted:chairs"
 	task.411F0D5350FF19D9.title: "Any #c:logs/archwood"
 	task.5E51E9F92F6C0EDA.title: "TIP: Living in the Skies"
+	task.6CFD732677183D9E.title: "Any #handcrafted:couches"
 	task.6FA982EE73A2E742.title: "Any #c:seeds"
+	task.7286BFEC2B4361AA.title: "TIP: Learning the Mods"
+	task.7D568E180743B0F4.title: "Any #handcrafted:sheets"
 }
