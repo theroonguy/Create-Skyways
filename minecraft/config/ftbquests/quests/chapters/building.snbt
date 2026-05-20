@@ -59,7 +59,7 @@
 			id: "277C63476A28EDF3"
 			tasks: [{
 				id: "0BB327AB5652D5CB"
-				item: { count: 1, id: "morebridges:industrial_bridge" }
+				item: { components: { "ftbquests:missing_item": "morebridges:industrial_bridge" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 6.5d
@@ -69,7 +69,7 @@
 			id: "11B7C9267BA7DFEA"
 			tasks: [{
 				id: "128EA13EB1ED8D99"
-				item: { count: 1, id: "morebridges:industrial_bridge_stair" }
+				item: { components: { "ftbquests:missing_item": "morebridges:industrial_bridge_stair" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 6.5d

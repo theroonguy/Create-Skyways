@@ -3,7 +3,7 @@
 'legs' : '',
 'feet' : '',
 'offhand' : '',
-0 : '{count:1,id:"icarus:brown_mechanical_leather_wings"}',
+0 : '{count:1,id:"paraglider:paraglider"}',
 1 : '',
 2 : '',
 3 : '',

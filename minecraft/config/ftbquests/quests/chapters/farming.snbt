@@ -17,7 +17,7 @@
 			id: "2B30BCDB739CF4F8"
 			tasks: [{
 				id: "085F9847EDD42D6F"
-				item: { count: 1, id: "farmersdelight:cutting_board" }
+				item: { components: { "ftbquests:missing_item": "farmersdelight:cutting_board" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 4.0d
@@ -39,7 +39,7 @@
 			id: "5EC3497F29FBAD9C"
 			tasks: [{
 				id: "7EA5F9CC3F2CBB63"
-				item: { count: 1, id: "farmersdelight:skillet" }
+				item: { components: { "ftbquests:missing_item": "farmersdelight:skillet" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 10.0d
@@ -50,7 +50,7 @@
 			id: "14241E7425A0E59C"
 			tasks: [{
 				id: "40C57A9BF6628625"
-				item: { count: 1, id: "farmersdelight:cooking_pot" }
+				item: { components: { "ftbquests:missing_item": "farmersdelight:cooking_pot" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 8.0d
@@ -61,7 +61,7 @@
 			id: "237A25102BE8867A"
 			tasks: [{
 				id: "46D664E3DC50D5F1"
-				item: { count: 1, id: "farmersdelight:stove" }
+				item: { components: { "ftbquests:missing_item": "farmersdelight:stove" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 8.0d

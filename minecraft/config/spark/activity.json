@@ -5,6 +5,32 @@
       "name": "theroonguy",
       "uniqueId": "4bdcaa78-3f74-4432-89e7-66d6c9d664d3"
     },
+    "time": 1779303812292,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/4Ua52iVi2s"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "theroonguy",
+      "uniqueId": "4bdcaa78-3f74-4432-89e7-66d6c9d664d3"
+    },
+    "time": 1779303669832,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/AOk12Rf0G3"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "theroonguy",
+      "uniqueId": "4bdcaa78-3f74-4432-89e7-66d6c9d664d3"
+    },
     "time": 1776869149595,
     "type": "Profiler (live)",
     "data": {

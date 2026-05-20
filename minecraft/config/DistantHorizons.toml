@@ -117,7 +117,7 @@ _version = 4
 	[common.multiThreading]
 		#
 		# How many threads should be used by Distant Horizons?
-		numberOfThreads = 12
+		numberOfThreads = 6
 		#
 		# A value between 1.0 and 0.0 that represents the percentage 
 		# of time each thread can run before going idle. 
@@ -301,6 +301,21 @@ _version = 4
 			#    Mod compatibility is not guaranteed.
 			lodOnlyMode = false
 			#
+			# What renderer is active? 
+			# 
+			# DEFAULT: Default lod renderer 
+			# DEBUG_TRIANGLE: Debug testing renderer 
+			# DISABLED: Disable rendering
+			rendererMode = "DEFAULT"
+			#
+			# If true overlapping quads will be rendered as bright red for easy identification. 
+			# If false the quads will be rendered normally.
+			showOverlappingQuadErrors = false
+			#
+			# If true OpenGL Buffer garbage collection will be logged 
+			# this also includes the number of live buffers.
+			logBufferGarbageCollection = false
+			#
 			# Should specialized colors/rendering modes be used? 
 			# 
 			# OFF: LODs will be drawn with their normal colors. 
@@ -313,13 +328,6 @@ _version = 4
 			# Useful for debugging shaders
 			enableWhiteWorld = false
 			#
-			# What renderer is active? 
-			# 
-			# DEFAULT: Default lod renderer 
-			# DEBUG_TRIANGLE: Debug testing renderer 
-			# DISABLED: Disable rendering
-			rendererMode = "DEFAULT"
-			#
 			# If enabled the LODs will render as wireframe.
 			renderWireframe = false
 			#
@@ -328,14 +336,6 @@ _version = 4
 			# F7 - enable/disable LOD only rendering 
 			# F8 - cycle through the different debug rendering modes
 			enableDebugKeybindings = false
-			#
-			# If true overlapping quads will be rendered as bright red for easy identification. 
-			# If false the quads will be rendered normally.
-			showOverlappingQuadErrors = false
-			#
-			# If true OpenGL Buffer garbage collection will be logged 
-			# this also includes the number of live buffers.
-			logBufferGarbageCollection = false
 
 			[client.advanced.debugging.debugWireframe]
 				#
@@ -360,36 +360,6 @@ _version = 4
 				#    Additionally, only stuff that's loaded after you enable this 
 				#    will render their debug wireframes.
 				enableRendering = false
-
-			[client.advanced.debugging.f3Screen]
-				#
-				# Shows info about the render thread tasks.
-				showRenderThreadTasks = false
-				#
-				# Shows how many chunks are queued for processing and the max count that can be queued.
-				showQueuedChunkUpdateCount = true
-				#
-				# Shows the memory use and array counts for each DH object pool.
-				showSeparatedObjectPools = false
-				#
-				# Shows the player's LOD position.
-				showPlayerPos = true
-				#
-				# Shows the combined memory use and array counts for all DH pooled objects.
-				showCombinedObjectPools = false
-				#
-				# Defines what internal detail level the player position will be shown as. 
-				# Internal detail level means: 6 = 1x1 block, 7 = 2x2 blocks, etc.
-				playerPosSectionDetailLevel = 6
-				#
-				# Only show levels that DH is actively rendering.
-				onlyShowRenderingLevels = true
-				#
-				# Shows info about each thread pool.
-				showThreadPools = true
-				#
-				# Shows what levels are loaded and world gen/rendering info about those levels.
-				showLevelStatus = true
 
 			[client.advanced.debugging.openGl]
 				#
@@ -429,10 +399,49 @@ _version = 4
 				intTest = 69420
 				stringTest = "Test input box"
 
+			[client.advanced.debugging.f3Screen]
+				#
+				# Shows info about the render thread tasks.
+				showRenderThreadTasks = false
+				#
+				# Shows how many chunks are queued for processing and the max count that can be queued.
+				showQueuedChunkUpdateCount = true
+				#
+				# Shows the memory use and array counts for each DH object pool.
+				showSeparatedObjectPools = false
+				#
+				# Shows the player's LOD position.
+				showPlayerPos = true
+				#
+				# Shows the combined memory use and array counts for all DH pooled objects.
+				showCombinedObjectPools = false
+				#
+				# Defines what internal detail level the player position will be shown as. 
+				# Internal detail level means: 6 = 1x1 block, 7 = 2x2 blocks, etc.
+				playerPosSectionDetailLevel = 6
+				#
+				# Only show levels that DH is actively rendering.
+				onlyShowRenderingLevels = true
+				#
+				# Shows info about each thread pool.
+				showThreadPools = true
+				#
+				# Shows what levels are loaded and world gen/rendering info about those levels.
+				showLevelStatus = true
+
+			[client.advanced.debugging.positionFinderDebugging]
+				positionFinderEnable = false
+				positionFinderMinBlockY = -64
+				positionFinderZPos = 0
+				positionFinderXPos = 0
+				positionFinderMaxBlockY = 125
+				positionFinderDetailLevel = 6
+				positionFinderMarginPercent = "0.0"
+
 		[client.advanced.graphics]
 			#
 			# Enable Screen Space Ambient Occlusion
-			enableSsao = true
+			enableSsao = false
 			#
 			# If true some vanilla graphics settings will be automatically changed 
 			# during DH setup to provide a better experience. 
@@ -619,7 +628,7 @@ _version = 4
 				#
 				# Should DH fade out before reaching the far clip plane? 
 				# This is helpful to prevent DH clouds from cutting off in the distance.
-				dhFadeFarClipPlane = true
+				dhFadeFarClipPlane = false
 				#
 				# How bright LOD colors are. 
 				# 
@@ -649,7 +658,7 @@ _version = 4
 				# 
 				# Lowest Quality: HEIGHT_MAP
 				# Highest Quality: EXTREME
-				verticalQuality = "MEDIUM"
+				verticalQuality = "LOW"
 				#
 				# What blocks shouldn't be rendered as LODs? 
 				# 
@@ -676,14 +685,14 @@ _version = 4
 				# This indicates how quickly LODs decrease in quality the further away they are. 
 				# Higher settings will render higher quality fake chunks farther away, 
 				# but will increase memory and GPU usage.
-				horizontalQuality = "MEDIUM"
+				horizontalQuality = "LOW"
 				#
 				# How should LOD transparency be handled. 
 				# 
 				# COMPLETE: LODs will render transparent. 
 				# FAKE: LODs will be opaque, but shaded to match the blocks underneath. 
 				# DISABLED: LODs will be opaque.
-				transparency = "COMPLETE"
+				transparency = "DISABLED"
 				#
 				# This is the same as vanilla Biome Blending settings for Lod area. 
 				#     Note that anything other than '0' will greatly effect Lod building time. 
@@ -691,14 +700,14 @@ _version = 4
 				#     '0' equals to Vanilla Biome Blending of '1x1' or 'OFF', 
 				#     '1' equals to Vanilla Biome Blending of '3x3', 
 				#     '2' equals to Vanilla Biome Blending of '5x5'...
-				lodBiomeBlending = 3
+				lodBiomeBlending = 1
 				#
 				# How should vanilla Minecraft fade into Distant Horizons LODs? 
 				# 
 				# NONE: Fastest, there will be a pronounced border between DH and MC rendering. 
 				# SINGLE_PASS: Fades after MC's transparent pass, opaque blocks underwater won't be faded. 
 				# DOUBLE_PASS: Slowest, fades after both MC's opaque and transparent passes, provides the smoothest transition.
-				vanillaFadeMode = "DOUBLE_PASS"
+				vanillaFadeMode = "SINGLE_PASS"
 
 			[client.advanced.graphics.fog]
 				#

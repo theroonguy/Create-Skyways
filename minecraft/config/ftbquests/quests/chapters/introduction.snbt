@@ -4,7 +4,10 @@
 	filename: "introduction"
 	group: ""
 	icon: {
-		id: "createcafe:strawberry_milk_tea"
+		components: {
+			"ftbquests:missing_item": "createcafe:strawberry_milk_tea"
+		}
+		id: "ftbquests:missing_item"
 	}
 	id: "4B12125995746416"
 	order_index: 0
