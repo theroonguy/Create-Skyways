@@ -3,7 +3,10 @@ minecraft/.mixin.out
 minecraft/.probe
 minecraft/.sable
 minecraft/.vscode
+minecraft/Distant_Horizons_server_data
 minecraft/cache
+minecraft/debug
+minecraft/defaultconfigs
 minecraft/downloads
 minecraft/dynamic-data-pack-cache
 minecraft/dynamic-resource-pack-cache

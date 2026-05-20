@@ -338,14 +338,6 @@
     "curseForgeHash": 423041515,
     "modrinthHash": "8ea07df55b26c8343d06df77936505a23e0d2140"
   },
-  "continuity-3.0.0+0.0.1+1.21.1.neoforge-all.jar": {
-    "jarName": "continuity-3.0.0+0.0.1+1.21.1.neoforge-all.jar",
-    "modId": "continuity",
-    "name": "NeoContinuity",
-    "version": "3.0.0+0.0.1+1.21.1.neoforge",
-    "curseForgeHash": 1343614969,
-    "modrinthHash": "df5c0c092f4656277cb8f4f180c6260510665ee3"
-  },
   "continuity-3.0.0+1.21.neoforge.jar": {
     "jarName": "continuity-3.0.0+1.21.neoforge.jar",
     "modId": "continuity",
@@ -560,6 +552,14 @@
     "version": "9.5.1+1.21.1",
     "curseForgeHash": 933317947,
     "modrinthHash": "418fcd42e3a7844c9bdc71c9b6401fdb3894e0c4"
+  },
+  "desiredservers-neoforge-1.21.1-1.6.0.jar": {
+    "jarName": "desiredservers-neoforge-1.21.1-1.6.0.jar",
+    "modId": "desiredservers",
+    "name": "Desired Servers",
+    "version": "1.6.0",
+    "curseForgeHash": 2882790876,
+    "modrinthHash": "4b669511628a866b147a4f32c972f0602352f1f2"
   },
   "DiagonalFences-v21.1.1-1.21.1-NeoForge.jar": {
     "jarName": "DiagonalFences-v21.1.1-1.21.1-NeoForge.jar",
@@ -1146,6 +1146,14 @@
     "version": "5.27.8+mc1.21.1",
     "curseForgeHash": 3496257519,
     "modrinthHash": "2fbce2437be5a2ac69aa093a388ca43f44245237"
+  },
+  "mods_optimizer-neoforge-1.21.1-4.3.0.jar": {
+    "jarName": "mods_optimizer-neoforge-1.21.1-4.3.0.jar",
+    "modId": "mods_optimizer",
+    "name": "Mods Optimizer",
+    "version": "4.3.0",
+    "curseForgeHash": 2307830123,
+    "modrinthHash": "aca8eb4deea86c005741dff87745d98ca13709d7"
   },
   "molten_vents-2.1.1 (1).jar": {
     "jarName": "molten_vents-2.1.1 (1).jar",

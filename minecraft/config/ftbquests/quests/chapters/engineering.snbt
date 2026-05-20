@@ -7,12 +7,33 @@
 		id: "aeronautics:aviators_goggles"
 	}
 	id: "1D7854C2EF41C28C"
-	order_index: 1
-	quest_links: [ ]
+	order_index: 0
+	quest_links: [{
+		id: "4B3A85F4DB543741"
+		linked_quest: "5D981D87CFBB9AB2"
+		x: -1.0d
+		y: -6.0d
+	}]
 	quests: [
 		{
 			dependencies: ["5DD8A32858F103DD"]
 			id: "5423F901A6A80391"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "05B463D39EC6D1D5"
+					table_id: 1766666266666333109L
+					type: "all_table"
+				}
+				{
+					id: "260570CCCAE2A7DD"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "58EBDD5C64DF72F4"
 				observe_type: 0
@@ -26,6 +47,22 @@
 		{
 			dependencies: ["5DD8A32858F103DD"]
 			id: "0FAAAE1BC0382F9A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "110B4771305FE35F"
+					table_id: 1766666266666333109L
+					type: "all_table"
+				}
+				{
+					id: "487604F35DAD4AC2"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "7A63C996DCC5488D"
 				observe_type: 0
@@ -83,6 +120,22 @@
 		{
 			dependencies: ["5DD8A32858F103DD"]
 			id: "606E802FFC65B491"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1922D26655883236"
+					table_id: 1766666266666333109L
+					type: "all_table"
+				}
+				{
+					id: "3DC9E315762DB968"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "2149E71989259277"
 				observe_type: 0
@@ -118,6 +171,22 @@
 		{
 			dependencies: ["5DD8A32858F103DD"]
 			id: "09AFAD6927F19B34"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "417022400823A566"
+					table_id: 1766666266666333109L
+					type: "all_table"
+				}
+				{
+					id: "47ED36C30A2FFEA1"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "19C22F768A4D3019"
 				observe_type: 0
@@ -153,6 +222,22 @@
 		{
 			dependencies: ["5DD8A32858F103DD"]
 			id: "0EB695DEAB9A5640"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "322308B8E1C831BE"
+					table_id: 1766666266666333109L
+					type: "all_table"
+				}
+				{
+					id: "7C80125E5767976C"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "069873E00A6DD6EF"
 				observe_type: 0

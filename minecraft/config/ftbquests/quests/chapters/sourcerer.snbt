@@ -7,7 +7,7 @@
 		id: "ars_nouveau:archmage_spell_book"
 	}
 	id: "6807243F07A00BD3"
-	order_index: 5
+	order_index: 4
 	quest_links: [{
 		id: "3E90871601DD60D4"
 		linked_quest: "384D109010014537"
@@ -441,6 +441,20 @@
 		{
 			dependencies: ["08EC8696C537D490"]
 			id: "6445AF5FA5BFA254"
+			rewards: [
+				{
+					id: "292D367B8BA6A509"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "5F119EBE1163985C"
+					type: "custom"
+				}
+			]
 			tasks: [{
 				id: "2DCB614C008CFA22"
 				item: { count: 1, id: "ars_nouveau:starbuncle_charm" }

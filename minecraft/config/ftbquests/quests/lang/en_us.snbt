@@ -12,7 +12,6 @@
 	chapter.437D42E50542F67F.chapter_subtitle: ["Cheffing it up!"]
 	chapter.437D42E50542F67F.title: "Farmer/Chef"
 	chapter.4B12125995746416.title: "Introduction"
-	chapter.5D649E3BFD2E7B31.title: "Pilot (merge)"
 	chapter.600661E33F468F67.chapter_subtitle: ["The Sky's the Limit"]
 	chapter.600661E33F468F67.title: "Builder"
 	chapter.6212B5C9E204C0F8.chapter_subtitle: ["Store Your Stuff"]
@@ -22,6 +21,7 @@
 	chapter_group.758160106C477F5B.title: "Disciplines"
 	quest.02D42B372E6FC138.title: "Ars Storage Lecterns"
 	quest.035873276BCC8FF7.quest_desc: ["There is no home without shelter. As a Builder, you will erect the cities that house our community--in style! Those pesky engineers will make a mess out of their factories. Perhaps you can earn a pretty penny for covering them up!"]
+	quest.035873276BCC8FF7.quest_subtitle: "Brick By Boring Brick"
 	quest.035873276BCC8FF7.title: "Building"
 	quest.09AFAD6927F19B34.title: "Ochrum Vent"
 	quest.0EB695DEAB9A5640.title: "Crimsite Vent"
@@ -57,6 +57,7 @@
 		"Now, where did I put my glider...?"
 	]
 	quest.437F1A5F4939D457.quest_subtitle: "My Way or the Skyway"
+	quest.437F1A5F4939D457.title: "Welcome to Skyways SMP!"
 	quest.4399FD99AFDFFA6F.quest_desc: [
 		"As a Create-based modpack, it is important to understand the fundamentals of Create before exploring Aeronautics."
 		""
@@ -69,6 +70,7 @@
 	quest.5423F901A6A80391.title: "Scorchia Vent"
 	quest.56C33261C14917EE.title: "Sophisticated Barrels"
 	quest.5D981D87CFBB9AB2.quest_desc: ["As an Aviator, you will explore the world by sky and reap its rewards, bringing back vast wealth to your community. You will design and construct the airships that will both bridge our peoples and take us further than ever before."]
+	quest.5D981D87CFBB9AB2.quest_subtitle: "Strap In"
 	quest.5D981D87CFBB9AB2.title: "Piloting"
 	quest.5DD8A32858F103DD.quest_desc: ["In order to automate the most fundamental resources, you can find dormant &lMolten Vents&r scattered across the world. Explode them by any means necessary to activate them, and then they will convert lava into their respective blocks."]
 	quest.5DD8A32858F103DD.quest_subtitle: "Geographic Automation"
@@ -86,7 +88,7 @@
 	quest.6DF6171AF0F6F932.quest_subtitle: "Chef's Best Friend"
 	quest.6DF6171AF0F6F932.title: "Knife"
 	quest.764347D861948562.quest_desc: ["Ah, the humble Farmer: the most therapeutic role, and also the most supportive. The only resource that will never lose its value is sustenance. Here, you will turn food from a chore into an art, and make a pretty penny while you're at it."]
-	quest.764347D861948562.quest_subtitle: "The Breadbasket"
+	quest.764347D861948562.quest_subtitle: "Okay Grandma"
 	quest.764347D861948562.title: "Farming/Cooking"
 	quest.7C71F05C0CCAAFAD.title: "Metal Bundles"
 	quest.7DE745F6F53E644D.quest_subtitle: "Capitalism, in Minecraft"
