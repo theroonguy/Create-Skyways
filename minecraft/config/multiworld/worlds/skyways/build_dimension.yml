@@ -1,5 +1,0 @@
-namespace: skyways
-path: build_dimension
-environment: NORMAL
-seed: -1285212693
-custom_generator: FLAT

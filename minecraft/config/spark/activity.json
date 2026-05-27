@@ -5,6 +5,45 @@
       "name": "theroonguy",
       "uniqueId": "4bdcaa78-3f74-4432-89e7-66d6c9d664d3"
     },
+    "time": 1779624860461,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/QY4awr4RPd"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "theroonguy",
+      "uniqueId": "4bdcaa78-3f74-4432-89e7-66d6c9d664d3"
+    },
+    "time": 1779575639155,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/gUwEMINW5L"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "theroonguy",
+      "uniqueId": "4bdcaa78-3f74-4432-89e7-66d6c9d664d3"
+    },
+    "time": 1779575005030,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/HCn7j2lfEm"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "theroonguy",
+      "uniqueId": "4bdcaa78-3f74-4432-89e7-66d6c9d664d3"
+    },
     "time": 1779303812292,
     "type": "Profiler (live)",
     "data": {

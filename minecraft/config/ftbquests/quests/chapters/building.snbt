@@ -169,5 +169,39 @@
 			x: 18.5d
 			y: 0.0d
 		}
+		{
+			dependencies: ["035873276BCC8FF7"]
+			id: "413E7C763032D1B0"
+			tasks: [{
+				id: "6F31A4FC93B3BC32"
+				item: { count: 1, id: "create:andesite_scaffolding" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["035873276BCC8FF7"]
+			id: "4DEBAF6A6EDC5A7A"
+			tasks: [
+				{
+					id: "2B4619F19C57A443"
+					item: { count: 1, id: "create:schematicannon" }
+					type: "item"
+				}
+				{
+					id: "6195C0F6D6F60211"
+					item: { count: 1, id: "create:schematic_table" }
+					type: "item"
+				}
+				{
+					id: "68E3EDD26DA9D347"
+					item: { count: 1, id: "create:schematic_and_quill" }
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: 1.5d
+		}
 	]
 }

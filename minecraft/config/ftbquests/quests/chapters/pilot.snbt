@@ -11,7 +11,7 @@
 	quest_links: [{
 		id: "3527FE9AE10D2504"
 		linked_quest: "1047E6355C1B7896"
-		x: -0.5d
+		x: -5.5d
 		y: 0.0d
 	}]
 	quests: [
@@ -22,7 +22,7 @@
 				item: { count: 1, id: "create:wrench" }
 				type: "item"
 			}]
-			x: -0.5d
+			x: 7.0d
 			y: 2.0d
 		}
 		{
@@ -32,7 +32,7 @@
 				item: { count: 1, id: "create:brass_ingot" }
 				type: "item"
 			}]
-			x: 2.0d
+			x: 10.0d
 			y: 2.0d
 		}
 		{
@@ -42,8 +42,18 @@
 				item: { count: 1, id: "create:precision_mechanism" }
 				type: "item"
 			}]
-			x: 2.0d
+			x: 10.0d
 			y: 4.0d
+		}
+		{
+			id: "40BAB0F99877DDEB"
+			tasks: [{
+				id: "35E0F82498370113"
+				item: { count: 1, id: "minecraft:cobblestone" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 2.0d
 		}
 	]
 }

@@ -1,0 +1,30 @@
+{
+  "byBiome": {},
+  "weatherByBiome": {},
+  "weather": {
+    "rain": {
+      "fog": 0.15,
+      "sky": 0.15,
+      "fogStart": 1.0,
+      "fogEnd": 1.0
+    },
+    "thunder": {
+      "fog": 0.18,
+      "sky": 0.18,
+      "fogStart": 1.0,
+      "fogEnd": 1.0
+    }
+  },
+  "stars": {
+    "enabled": true,
+    "amount": 100.0,
+    "brightness": 1.0,
+    "twinkle": 0.35,
+    "dayStars": false,
+    "dayAmount": 100.0,
+    "dayBrightness": 1.0,
+    "dayTwinkle": 0.35
+  },
+  "fogEnabled": true,
+  "skyEnabled": true
+}

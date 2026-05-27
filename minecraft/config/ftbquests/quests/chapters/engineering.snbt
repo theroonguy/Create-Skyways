@@ -271,6 +271,7 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["5D981D87CFBB9AB2"]
 			id: "5DD8A32858F103DD"
 			size: 2.0d
 			tasks: [{
@@ -289,6 +290,156 @@
 			}]
 			x: -5.5d
 			y: -2.0d
+		}
+		{
+			dependencies: ["79533C43ED9756FF"]
+			id: "05EE89E3B34FB981"
+			rewards: [{
+				id: "0DCF0D0D74464DA9"
+				item: {
+					count: 1
+					id: "simulated:throttle_lever"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "47406BC29EA48A4F"
+					item: { count: 1, id: "aeronautics:white_envelope" }
+					type: "item"
+				}
+				{
+					id: "09A94B2E0D931C68"
+					item: { count: 1, id: "aeronautics:adjustable_burner" }
+					type: "item"
+				}
+				{
+					id: "6667024AB834AECD"
+					item: { count: 1, id: "create:analog_lever" }
+					type: "item"
+				}
+			]
+			x: 11.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5D981D87CFBB9AB2"]
+			id: "79533C43ED9756FF"
+			rewards: [{
+				id: "32FC4181547F6FF6"
+				item: {
+					count: 1
+					id: "simulated:honey_glue"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "21BAFD58287372E0"
+				item: { count: 1, id: "simulated:physics_assembler" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["05EE89E3B34FB981"]
+			id: "53035386FFC19ACC"
+			rewards: [
+				{
+					id: "4B17A984C5F01D7C"
+					item: {
+						count: 1
+						id: "aeronautics:andesite_propeller"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "5503225FDF0D1FCC"
+					item: {
+						count: 1
+						id: "minecraft:coal"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "315A54A0B213FED9"
+					item: { count: 1, id: "aeronautics:wooden_propeller" }
+					type: "item"
+				}
+				{
+					id: "4392E372A1489CD9"
+					item: { count: 1, id: "simulated:red_portable_engine" }
+					type: "item"
+				}
+			]
+			x: 11.5d
+			y: 1.0d
+		}
+		{
+			id: "45CFA361BE7C3CA9"
+			tasks: [{
+				id: "39EF7229419C8DB0"
+				item: { count: 1, id: "grapplemod:grappling_hook" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["53035386FFC19ACC"]
+			id: "7DD1054839F85538"
+			tasks: [
+				{
+					id: "650A6C45A9BD082F"
+					item: { count: 1, id: "simulated:white_symmetric_sail" }
+					type: "item"
+				}
+				{
+					id: "326D4D7E290D7FE6"
+					item: { count: 1, id: "simulated:steering_wheel" }
+					type: "item"
+				}
+				{
+					id: "336C4F388DF0CBD6"
+					item: { count: 1, id: "create:mechanical_bearing" }
+					type: "item"
+				}
+			]
+			x: 11.5d
+			y: 2.5d
+		}
+		{
+			id: "5CCD1C7F16267196"
+			tasks: [{
+				id: "234BA6321AFF92D2"
+				item: { count: 1, id: "gyro:gyroscope" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			id: "0452A5C18B584C42"
+			tasks: [{
+				id: "7AE5DFBBF01400EF"
+				item: { count: 1, id: "create_aeronautics_toolgun:survival_structure_tool" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			id: "046547B3E133F834"
+			tasks: [{
+				id: "1DC8FF9570DEFF14"
+				item: { count: 1, id: "simulated:plunger_launcher" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.0d
 		}
 	]
 }

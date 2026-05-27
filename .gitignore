@@ -1,11 +1,15 @@
 # exclude folders
 minecraft/.cache
+minecraft/.mixin.out
 minecraft/.probe
+minecraft/.sable
 minecraft/.vscode
 minecraft/cache
+minecraft/coremods
 minecraft/saves
 minecraft/crash-reports
 minecraft/debug
+minecraft/Distant_Horizons_server_data
 minecraft/dynamic-data-pack-cache
 minecraft/dynamic-resource-pack-cache
 minecraft/exposures
@@ -13,6 +17,7 @@ minecraft/immersive_paintings_cache
 minecraft/local
 minecraft/logs
 minecraft/mods
+minecraft/particular_cache
 minecraft/saves
 minecraft/schematics
 minecraft/screenshots

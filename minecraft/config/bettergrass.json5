@@ -2,7 +2,7 @@
 	/* -> General
 	   OFF/FAST/FANCY (default: FANCY)
 	*/
-	"betterGrassMode": "FANCY",
+	"betterGrassMode": "FAST",
 	// (default: true)
 	"resourcePackCompatibilityMode": true,
 	/* Blocks

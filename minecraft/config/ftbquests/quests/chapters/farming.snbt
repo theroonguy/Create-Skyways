@@ -88,5 +88,65 @@
 			x: 8.0d
 			y: 1.5d
 		}
+		{
+			id: "673B0C6F98454D3D"
+			tasks: [{
+				id: "2D7EB5306789CFA8"
+				item: { count: 1, id: "farmersdelight:shepherds_pie_block" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 1.5d
+		}
+		{
+			id: "0FDB0EEAF8AD2FD0"
+			tasks: [{
+				id: "689AA1A431987FAA"
+				item: { count: 1, id: "createfood:sausage_bacon_pizza" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 1.5d
+		}
+		{
+			id: "4500C8675281F79A"
+			tasks: [{
+				id: "6CD2B0F7D4749AB5"
+				item: { count: 1, id: "farmersdelight:ratatouille" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 3.0d
+		}
+		{
+			id: "69ECC3707E97CD2C"
+			tasks: [{
+				id: "7DB9C350C7856DB5"
+				item: { count: 1, id: "croptopia:toast_sandwich" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			id: "5E4928B073273264"
+			tasks: [{
+				id: "01BB27FE899E9EA4"
+				item: { count: 1, id: "createfood:kelp_roll_fish" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.5d
+		}
+		{
+			id: "12E327CA44AB91C3"
+			tasks: [{
+				id: "7FF44458761E9CF9"
+				item: { count: 1, id: "farmersdelight:rice_roll_medley_block" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 3.0d
+		}
 	]
 }

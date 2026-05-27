@@ -12,7 +12,7 @@ minIslandRadius = 24
 maxIslandRadius = 75
 #How island radius sizes are selected. RANDOM preserves global min/max behavior, SPECIFIC uses small/medium/large bands.
 #Allowed Values: RANDOM, SPECIFIC
-islandSizeMode = "RANDOM"
+islandSizeMode = "SPECIFIC"
 #Specific mode: minimum radius for small islands.
 # Default: 24
 # Range: 8 ~ 500
@@ -44,7 +44,7 @@ largeIslandMinRadius = 59
 #Specific mode: maximum radius for large islands.
 # Default: 75
 # Range: 8 ~ 500
-largeIslandMaxRadius = 75
+largeIslandMaxRadius = 175
 #Specific mode: spawn weight for large islands.
 # Default: 0.33
 # Range: 0.0 ~ 1.0
@@ -83,7 +83,7 @@ veryHighBandCenterOffset = 12
 clusterSpacing = 96
 #Cluster spacing mode. CONSISTENT uses fixed spacing. DYNAMIC picks deterministic per-world spacing from min/max.
 #Allowed Values: CONSISTENT, DYNAMIC
-clusterSpacingMode = "CONSISTENT"
+clusterSpacingMode = "DYNAMIC"
 #Dynamic spacing mode: minimum cluster spacing in blocks.
 # Default: 96
 # Range: 32 ~ 2000
@@ -278,7 +278,7 @@ strongholdHostIslandRadiusMin = 192
 strongholdHostIslandRadiusMax = 256
 #Structures that may generate in unsupported air positions.
 #Examples: modid:sky_temple, modid:airship_wreck, modid:floating_platform
-skyStructureWhitelist = ["shellbound_for_airship:airship_ship1", "shellbound_for_airship:airship_ship2", "shellbound_for_airship:airship_ship3", "shellbound_for_airship:airship_ship4", "shellbound_for_airship:airship_ship5", "shellbound_for_airship:airship_ship6", "shellbound_for_airship:airship_ship7", "shellbound_for_airship:airship_ship8", "shellbound_for_airship:airship_ship9", "shellbound_for_airship:airship_ship10", "sky_whale_ship:whale", "sky_whale_ship:whaleship", "sky_whale_ship:whalelight", "sky_whale_ship:whalearena", "mostructures:the_castle_in_the_sky", "create_structures_arise:pillagersteampunkairship"]
+skyStructureWhitelist = ["shellbound_for_airship:airship_ship1", "shellbound_for_airship:airship_ship2", "shellbound_for_airship:airship_ship3", "shellbound_for_airship:airship_ship4", "shellbound_for_airship:airship_ship5", "shellbound_for_airship:airship_ship6", "shellbound_for_airship:airship_ship7", "shellbound_for_airship:airship_ship8", "shellbound_for_airship:airship_ship9", "shellbound_for_airship:airship_ship10", "sky_whale_ship:whale", "sky_whale_ship:whaleship", "sky_whale_ship:whalelight", "sky_whale_ship:whalearena", "mostructures:the_castle_in_the_sky", "create_structures_arise:pillagersteampunkairship", "moogs_structures:castle_tower", "moogs_structures:castle_ruin"]
 #Structures to skip entirely before placement validation.
 #Leave empty by default so future special handling can still be added later.
 skyStructureDenylist = []

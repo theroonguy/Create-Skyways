@@ -1,0 +1,12 @@
+{
+  "presets": [
+    {
+      "id": "default",
+      "displayName": "Default",
+      "description": "Hardcoded default configuration - Will NOT delete presets",
+      "lastModified": 1779486152869,
+      "configFile": "default.json",
+      "fromResourcePack": false
+    }
+  ]
+}

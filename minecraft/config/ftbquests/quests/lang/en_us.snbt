@@ -23,6 +23,12 @@
 	quest.035873276BCC8FF7.quest_desc: ["There is no home without shelter. As a Builder, you will erect the cities that house our community--in style! Those pesky engineers will make a mess out of their factories. Perhaps you can earn a pretty penny for covering them up!"]
 	quest.035873276BCC8FF7.quest_subtitle: "Brick By Boring Brick"
 	quest.035873276BCC8FF7.title: "Building"
+	quest.0452A5C18B584C42.quest_desc: ["This Aeronautics addon allows you to more easily manipulate simulated contraptions in survival mode!"]
+	quest.046547B3E133F834.quest_desc: ["An extra addon allows riding on plunger lines using a Wrench!"]
+	quest.046547B3E133F834.quest_subtitle: "Portable Zipline!"
+	quest.05EE89E3B34FB981.quest_desc: ["These components make up the foundations of an airship: the &eHot Air Envelope&r gets filled up with hot air from the &eHot Air Burner&r, which can be powered variably with the &eAnalog Lever&r. On a simulated contraption, this makes it float."]
+	quest.05EE89E3B34FB981.quest_subtitle: "Taking to the Skies"
+	quest.05EE89E3B34FB981.title: "Your First Airship"
 	quest.09AFAD6927F19B34.title: "Ochrum Vent"
 	quest.0EB695DEAB9A5640.title: "Crimsite Vent"
 	quest.0FAAAE1BC0382F9A.title: "Veridium Vent"
@@ -64,11 +70,22 @@
 		"If you are unsure how to proceed, you can follow the Advancements by pressing [L]. This generally works for other important mods as well, like Ars Nouveau."
 	]
 	quest.4399FD99AFDFFA6F.quest_subtitle: "Gotta Start Somewhere!"
+	quest.45CFA361BE7C3CA9.quest_desc: [
+		"Using a &eGrappling Hook&r you can swing from island to island and even on Simulated contraptions!"
+		""
+		"If this one is too basic for you, there are additional tiers of grappling hooks to swing even faster and further."
+	]
 	quest.4A678610A45D5838.title: "Bundles"
 	quest.4ABD5E78A1859F36.title: "Create Packages"
+	quest.4DEBAF6A6EDC5A7A.quest_desc: ["Using the &eSchematicannon&r, you can effectively copy and paste builds between this world, and even from a creative world!"]
+	quest.4DEBAF6A6EDC5A7A.quest_subtitle: "Become the Master Builder"
 	quest.521EC12D24865033.title: "The Aether"
+	quest.53035386FFC19ACC.quest_desc: ["Once you have a functional hot air balloon, you can make it move with a Wooden or Andesite &ePropellor&r, powered by a &ePortable Engine&r."]
+	quest.53035386FFC19ACC.quest_subtitle: "It Only Goes Downhill From Here"
+	quest.53035386FFC19ACC.title: "Thrust!"
 	quest.5423F901A6A80391.title: "Scorchia Vent"
 	quest.56C33261C14917EE.title: "Sophisticated Barrels"
+	quest.5CCD1C7F16267196.quest_desc: ["This Aeronautics addon gives an easier way to automatically stabilize simulated contraptions."]
 	quest.5D981D87CFBB9AB2.quest_desc: ["As an Aviator, you will explore the world by sky and reap its rewards, bringing back vast wealth to your community. You will design and construct the airships that will both bridge our peoples and take us further than ever before."]
 	quest.5D981D87CFBB9AB2.quest_subtitle: "Strap In"
 	quest.5D981D87CFBB9AB2.title: "Piloting"
@@ -90,7 +107,21 @@
 	quest.764347D861948562.quest_desc: ["Ah, the humble Farmer: the most therapeutic role, and also the most supportive. The only resource that will never lose its value is sustenance. Here, you will turn food from a chore into an art, and make a pretty penny while you're at it."]
 	quest.764347D861948562.quest_subtitle: "Okay Grandma"
 	quest.764347D861948562.title: "Farming/Cooking"
+	quest.79533C43ED9756FF.quest_desc: [
+		"The &ePhysics Assembler&r imbues blocks with physics. Once you get past how cursed it looks, you'll realize how much it can let you make. Planes, trucks, mobile bases, swinging bridges... the list goes on!"
+		""
+		"For starters, we'll make an &eAirship&r."
+	]
+	quest.79533C43ED9756FF.quest_subtitle: "Ugh, Not the Freebody Diagrams Again"
+	quest.79533C43ED9756FF.title: "Physics 101"
 	quest.7C71F05C0CCAAFAD.title: "Metal Bundles"
+	quest.7DD1054839F85538.quest_desc: [
+		"Lastly, steering can be accomplished using &eSymmetric Sails&r attached to a&e Mechanical Bearing&r at the back of the airship. This can then be controlled with a &eSteering Wheel&r connected by &eShafts&r."
+		""
+		"Congrats! You've successfully built your first functional Airship!"
+	]
+	quest.7DD1054839F85538.quest_subtitle: "(No longer) One Direction"
+	quest.7DD1054839F85538.title: "Steering"
 	quest.7DE745F6F53E644D.quest_subtitle: "Capitalism, in Minecraft"
 	quest.7DE745F6F53E644D.title: "Bank Account"
 	reward_table.1884759BFD4FF3B5.title: "Progress"
@@ -106,6 +137,7 @@
 	task.2844FCD141C77693.title: "Any #handcrafted:fancy_beds"
 	task.2F2A88186C95C034.title: "Understanding Source"
 	task.2F5C195B7848896C.title: "Any #farmersdelight:tools/knives"
+	task.3D03DE64775C270B.title: "So... You Wanna Be An Engineer?"
 	task.3F6D6AA005C632D6.title: "Any #handcrafted:chairs"
 	task.411F0D5350FF19D9.title: "Any #c:logs/archwood"
 	task.5E51E9F92F6C0EDA.title: "TIP: Living in the Skies"

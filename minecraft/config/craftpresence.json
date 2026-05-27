@@ -13,7 +13,7 @@
     "detectWorldData": true,
     "clientId": "450485984333660181",
     "defaultIcon": "grass",
-    "enableJoinRequests": false,
+    "enableJoinRequests": true,
     "preferredClientLevel": 3,
     "resetTimeOnInit": false,
     "autoRegister": false
