@@ -62,3 +62,71 @@ ServerEvents.recipes(event => {
 //         }
 //     }
 // })
+
+LootJS.modifiers(event => {
+    
+    // MOOG
+    event.addTableModifier("mss:general")
+        .addLoot(LootEntry.of("numismatics:spur", [1, 10]).randomChance(0.5))
+        .addLoot(LootEntry.of("numismatics:sprocket").randomChance(0.3))
+    
+    event.addTableModifier("mss:houses_common")
+        .addLoot(LootEntry.of("numismatics:spur", [1, 10]).randomChance(0.5))
+        .addLoot(LootEntry.of("numismatics:sprocket", [1, 3]).randomChance(0.3))
+    
+    event.addTableModifier("mss:houses_uncommon")
+        .addLoot(LootEntry.of("numismatics:spur", [1, 10]).randomChance(0.5))
+        .addLoot(LootEntry.of("numismatics:sprocket", [1, 6]).randomChance(0.4))
+        .addLoot(LootEntry.of("numismatics:cog", [1, 2]).randomChance(0.1))
+
+    event.addTableModifier("mss:houses_rare")
+        .addLoot(LootEntry.of("numismatics:spur", [1, 10]).randomChance(0.5))
+        .addLoot(LootEntry.of("numismatics:sprocket", [1, 4]).randomChance(0.4))
+        .addLoot(LootEntry.of("numismatics:cog", [1, 2]).randomChance(0.12))
+        .addLoot(LootEntry.of("numismatics:crown").randomChance(0.05))
+
+    event.addTableModifier("mss:sparse")
+        .addLoot(LootEntry.of("numismatics:spur", [1, 5]).randomChance(0.2))
+        .addLoot(LootEntry.of("numismatics:bevel", [1, 3]).randomChance(0.2))
+    
+    event.addTableModifier("mss:junk")
+        .addLoot(LootEntry.of("numismatics:spur", [1, 10]).randomChance(0.3))
+
+    event.addTableModifier("mss:stash")
+        .addLoot(LootEntry.of("numismatics:sprocket", [1, 10]).randomChance(0.3))
+        .addLoot(LootEntry.of("numismatics:cog", [1, 4]).randomChance(0.05))
+        .addLoot(LootEntry.of("numismatics:crown").randomChance(0.05))
+
+    event.addTableModifier("mss:arena")
+        .addLoot(LootEntry.of("numismatics:bevel", [1, 4]).randomChance(0.3))
+        .addLoot(LootEntry.of("numismatics:sprocket").randomChance(0.6))
+        .addLoot(LootEntry.of("numismatics:cog").randomChance(0.15))
+
+    event.addTableModifier("mss:rare")
+        .addLoot(LootEntry.of("numismatics:sprocket", [1, 4]).randomChance(0.4))
+        .addLoot(LootEntry.of("numismatics:cog", [1, 3]).randomChance(0.2))
+        .addLoot(LootEntry.of("numismatics:crown").randomChance(0.05))
+
+    // SHELLBOUND
+    event.addTableModifier(/shellbound_for_airship:chests.*/)
+        .addLoot(LootEntry.of("numismatics:sprocket", [1, 10]).randomChance(0.3))
+        .addLoot(LootEntry.of("numismatics:cog", [1, 3]).randomChance(0.1))
+        .addLoot(LootEntry.of("numismatics:crown").randomChance(0.01))
+
+    // BIOMES
+    event.addTableModifier(/biomeswevegone:chests.*/)
+        .addLoot(LootEntry.of("numismatics:sprocket", [1, 10]).randomChance(0.7))
+        .addLoot(LootEntry.of("numismatics:cog", [1, 4]).randomChance(0.2))
+        .addLoot(LootEntry.of("numismatics:crown").randomChance(0.05))
+
+    // VANILLA
+    event.addTableModifier("minecraft:chests/shipwreck_treasure")
+        .addLoot("numismatics:cog")
+    
+    // GENERAL
+    event.addTableModifier(LootType.CHEST)
+        .addLoot(LootEntry.of("numismatics:spur", [1, 16]).randomChance(0.3))
+        .addLoot(LootEntry.of("numismatics:sprocket", [1, 2]).randomChance(0.2))
+        .addLoot(LootEntry.of("numismatics:cog", [1, 2]).randomChance(0.05))
+        .addLoot(LootEntry.of("numismatics:crown").randomChance(0.001))
+})

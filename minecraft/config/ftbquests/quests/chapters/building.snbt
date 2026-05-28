@@ -4,7 +4,10 @@
 	filename: "building"
 	group: "758160106C477F5B"
 	icon: {
-		id: "rechiseled:chisel"
+		components: {
+			"ftbquests:missing_item": "rechiseled:chisel"
+		}
+		id: "ftbquests:missing_item"
 	}
 	id: "600661E33F468F67"
 	order_index: 2
@@ -63,7 +66,7 @@
 			id: "277C63476A28EDF3"
 			tasks: [{
 				id: "0BB327AB5652D5CB"
-				item: { components: { "ftbquests:missing_item": "morebridges:industrial_bridge" }, count: 1, id: "ftbquests:missing_item" }
+				item: { count: 1, id: "morebridges:industrial_bridge" }
 				type: "item"
 			}]
 			x: 6.5d
@@ -73,7 +76,7 @@
 			id: "11B7C9267BA7DFEA"
 			tasks: [{
 				id: "128EA13EB1ED8D99"
-				item: { components: { "ftbquests:missing_item": "morebridges:industrial_bridge_stair" }, count: 1, id: "ftbquests:missing_item" }
+				item: { count: 1, id: "morebridges:industrial_bridge_stair" }
 				type: "item"
 			}]
 			x: 6.5d

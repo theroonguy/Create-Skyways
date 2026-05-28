@@ -129,7 +129,7 @@
 			id: "035873276BCC8FF7"
 			tasks: [{
 				id: "5CBCD44AF4288804"
-				item: { count: 1, id: "rechiseled:chisel" }
+				item: { count: 1, id: "chipped:chisel" }
 				type: "item"
 			}]
 			x: -6.5d
