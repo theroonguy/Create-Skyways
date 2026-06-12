@@ -1,14 +1,14 @@
 {
-  "level": 22,
-  "experience": 89756,
+  "level": 23,
+  "experience": 99806,
   "achievements": {
     "FIRST_STEPS": {
       "unlocked": true,
-      "unlockTimestamp": 1779930477273
+      "unlockTimestamp": 1781281710145
     },
     "FRIENDLY_TOUCH": {
       "unlocked": true,
-      "unlockTimestamp": 1779930477273
+      "unlockTimestamp": 1781281710145
     },
     "CARETAKER": {
       "unlocked": false,
@@ -16,7 +16,7 @@
     },
     "PLAYFUL_FRIEND": {
       "unlocked": true,
-      "unlockTimestamp": 1779930477273
+      "unlockTimestamp": 1781281710145
     },
     "CLEANUP_CREW": {
       "unlocked": false,
@@ -24,7 +24,7 @@
     },
     "BEST_BUDDIES": {
       "unlocked": true,
-      "unlockTimestamp": 1779930477273
+      "unlockTimestamp": 1781281710145
     },
     "WELL_FED": {
       "unlocked": false,
@@ -36,15 +36,15 @@
     },
     "FUN_TIMES": {
       "unlocked": true,
-      "unlockTimestamp": 1779930477273
+      "unlockTimestamp": 1781281710145
     },
     "MARATHON_SESSION": {
       "unlocked": true,
-      "unlockTimestamp": 1779930477273
+      "unlockTimestamp": 1781281710145
     },
     "MASTER_TRAINER": {
       "unlocked": true,
-      "unlockTimestamp": 1779930477273
+      "unlockTimestamp": 1781281710145
     },
     "COMPLETION_COLLECTOR": {
       "unlocked": false,
@@ -52,7 +52,7 @@
     },
     "MIDNIGHT_COMPANION": {
       "unlocked": true,
-      "unlockTimestamp": 1779930477273
+      "unlockTimestamp": 1781281710145
     },
     "DESIGN_MARATHON": {
       "unlocked": false,
@@ -76,7 +76,7 @@
     "feedCount": 0,
     "playCount": 1,
     "poopCleanCount": 0,
-    "totalSessionTime": 55323,
+    "totalSessionTime": 99821,
     "layoutCreationCount": 0
   }
 }

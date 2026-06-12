@@ -4,10 +4,7 @@
 	filename: "introduction"
 	group: ""
 	icon: {
-		components: {
-			"ftbquests:missing_item": "createcafe:strawberry_milk_tea"
-		}
-		id: "ftbquests:missing_item"
+		id: "createcafe:strawberry_milk_tea"
 	}
 	id: "4B12125995746416"
 	order_index: 0
@@ -24,9 +21,9 @@
 				}
 				{
 					exclude_from_claim_all: true
-					id: "4A54AF6D192CA629"
+					id: "0954C53C58F8B195"
 					table_id: 1766666266666333109L
-					type: "all_table"
+					type: "loot"
 				}
 			]
 			tasks: [{
@@ -41,18 +38,18 @@
 			id: "437F1A5F4939D457"
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "23BA9DD4BD042CE3"
-					table_id: 1766666266666333109L
-					type: "all_table"
-				}
-				{
 					id: "300ED0F73E814516"
 					item: {
 						count: 1
 						id: "paraglider:paraglider"
 					}
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "501DAAC5B980AB8B"
+					table_id: 1766666266666333109L
+					type: "loot"
 				}
 			]
 			size: 2.0d
@@ -95,6 +92,12 @@
 				id: "paraglider:paraglider"
 			}
 			id: "5FAF9DC33A8120CF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3EF4AAF28B61BDBB"
+				table_id: 1766666266666333109L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "5E51E9F92F6C0EDA"
 				type: "checkmark"
@@ -105,6 +108,12 @@
 		{
 			dependencies: ["437F1A5F4939D457"]
 			id: "764347D861948562"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "01517E6C5EE0C443"
+				table_id: 1766666266666333109L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "6FA982EE73A2E742"
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:seeds)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -116,6 +125,12 @@
 		{
 			dependencies: ["437F1A5F4939D457"]
 			id: "5D981D87CFBB9AB2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5FA17D7DFFD877DF"
+				table_id: 1766666266666333109L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "22B52205411F76A3"
 				item: { count: 1, id: "paraglider:paraglider" }
@@ -127,6 +142,12 @@
 		{
 			dependencies: ["437F1A5F4939D457"]
 			id: "035873276BCC8FF7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5E93816B140EF3D7"
+				table_id: 1766666266666333109L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "5CBCD44AF4288804"
 				item: { count: 1, id: "chipped:chisel" }
@@ -137,12 +158,60 @@
 		}
 		{
 			id: "4399FD99AFDFFA6F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0D639836D466386E"
+				table_id: 1766666266666333109L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "7286BFEC2B4361AA"
 				type: "checkmark"
 			}]
 			x: -1.0d
 			y: -1.0d
+		}
+		{
+			id: "4D3C67556D73C7CD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5E1788A9594759DC"
+				table_id: 1766666266666333109L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "29440032FF793974"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			id: "1247EEA1B9876C28"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1B1B9FDEA1FAC421"
+				table_id: 1766666266666333109L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "1EB2F7620A88167C"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(numismatics:cards)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1247EEA1B9876C28"]
+			id: "673878AE88256302"
+			tasks: [{
+				id: "579177FE4FB30FEF"
+				item: { count: 1, id: "numismatics:vendor" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
 		}
 	]
 }

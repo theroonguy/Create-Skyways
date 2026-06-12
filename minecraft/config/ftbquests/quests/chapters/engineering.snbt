@@ -11,29 +11,20 @@
 	quest_links: [{
 		id: "4B3A85F4DB543741"
 		linked_quest: "5D981D87CFBB9AB2"
-		x: -1.0d
-		y: -6.0d
+		size: 2.0d
+		x: -2.0d
+		y: -5.0d
 	}]
 	quests: [
 		{
 			dependencies: ["5DD8A32858F103DD"]
 			id: "5423F901A6A80391"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "05B463D39EC6D1D5"
-					table_id: 1766666266666333109L
-					type: "all_table"
-				}
-				{
-					id: "260570CCCAE2A7DD"
-					item: {
-						count: 1
-						id: "numismatics:cog"
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "215F9B6D3D18D234"
+				table_id: 1766666266666333109L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "58EBDD5C64DF72F4"
 				observe_type: 0
@@ -47,22 +38,12 @@
 		{
 			dependencies: ["5DD8A32858F103DD"]
 			id: "0FAAAE1BC0382F9A"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "110B4771305FE35F"
-					table_id: 1766666266666333109L
-					type: "all_table"
-				}
-				{
-					id: "487604F35DAD4AC2"
-					item: {
-						count: 1
-						id: "numismatics:cog"
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2317D000D17ACC9C"
+				table_id: 1766666266666333109L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "7A63C996DCC5488D"
 				observe_type: 0
@@ -76,6 +57,12 @@
 		{
 			dependencies: ["0FAAAE1BC0382F9A"]
 			id: "217318FC419C3B6D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "69A8B2FBC7B208B3"
+				table_id: 1766666266666333109L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "195707523B16FAF2"
 				item: { count: 1, id: "create:crushed_raw_copper" }
@@ -87,6 +74,12 @@
 		{
 			dependencies: ["5423F901A6A80391"]
 			id: "3ABD5B046B4AB44F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "43044507A750125B"
+				table_id: 1766666266666333109L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "52E9D40A00EB0088"
 				item: { count: 1, id: "create:cinder_flour" }
@@ -98,6 +91,12 @@
 		{
 			dependencies: ["3ABD5B046B4AB44F"]
 			id: "4235E9E0E8BC6185"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1D1D553355E731D5"
+				table_id: 1766666266666333109L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "754BA24047B7106B"
 				item: { count: 1, id: "minecraft:redstone" }
@@ -109,6 +108,12 @@
 		{
 			dependencies: ["217318FC419C3B6D"]
 			id: "1A014CCDC0582885"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "704358C0F58C0585"
+				table_id: 1766666266666333109L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "3BA4235D1C3A58D1"
 				item: { count: 1, id: "minecraft:copper_ingot" }
@@ -120,22 +125,12 @@
 		{
 			dependencies: ["5DD8A32858F103DD"]
 			id: "606E802FFC65B491"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "1922D26655883236"
-					table_id: 1766666266666333109L
-					type: "all_table"
-				}
-				{
-					id: "3DC9E315762DB968"
-					item: {
-						count: 1
-						id: "numismatics:cog"
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1EB1E2CF7758A5D8"
+				table_id: 1766666266666333109L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "2149E71989259277"
 				observe_type: 0
@@ -149,6 +144,12 @@
 		{
 			dependencies: ["606E802FFC65B491"]
 			id: "7D4CC5189DBB085B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2A5E06F9384C2164"
+				table_id: 1766666266666333109L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "2A2F5FE660B5C64E"
 				item: { count: 1, id: "create:crushed_raw_zinc" }
@@ -160,6 +161,12 @@
 		{
 			dependencies: ["7D4CC5189DBB085B"]
 			id: "33FA0225D0496649"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "62A69284982D0E8B"
+				table_id: 1766666266666333109L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "47D1C006F64EA0E4"
 				item: { count: 1, id: "create:zinc_ingot" }
@@ -171,22 +178,12 @@
 		{
 			dependencies: ["5DD8A32858F103DD"]
 			id: "09AFAD6927F19B34"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "417022400823A566"
-					table_id: 1766666266666333109L
-					type: "all_table"
-				}
-				{
-					id: "47ED36C30A2FFEA1"
-					item: {
-						count: 1
-						id: "numismatics:cog"
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "26B04AF7B48DC303"
+				table_id: 1766666266666333109L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "19C22F768A4D3019"
 				observe_type: 0
@@ -200,6 +197,12 @@
 		{
 			dependencies: ["09AFAD6927F19B34"]
 			id: "06CF6CD15463FA74"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "13C1E7E896F0CBDF"
+				table_id: 1766666266666333109L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "2D731ED6CD4E3C35"
 				item: { count: 1, id: "create:crushed_raw_gold" }
@@ -211,6 +214,12 @@
 		{
 			dependencies: ["06CF6CD15463FA74"]
 			id: "0F4434555AF60E00"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6E59232F816C3F88"
+				table_id: 1766666266666333109L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "22AF4D3B207E2721"
 				item: { count: 1, id: "minecraft:gold_ingot" }
@@ -222,22 +231,12 @@
 		{
 			dependencies: ["5DD8A32858F103DD"]
 			id: "0EB695DEAB9A5640"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "322308B8E1C831BE"
-					table_id: 1766666266666333109L
-					type: "all_table"
-				}
-				{
-					id: "7C80125E5767976C"
-					item: {
-						count: 1
-						id: "numismatics:cog"
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "47DBCD97A30A07A7"
+				table_id: 1766666266666333109L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "069873E00A6DD6EF"
 				observe_type: 0
@@ -251,6 +250,12 @@
 		{
 			dependencies: ["0EB695DEAB9A5640"]
 			id: "43B3893E6E4ECCCC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3A84205138CEFCFB"
+				table_id: 1766666266666333109L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "66AC4582E3219483"
 				item: { count: 1, id: "create:crushed_raw_iron" }
@@ -262,6 +267,12 @@
 		{
 			dependencies: ["43B3893E6E4ECCCC"]
 			id: "38482B0A18C2E099"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "49644E04AE38DEA8"
+				table_id: 1766666266666333109L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "2851BC7B4F1EEE17"
 				item: { count: 1, id: "minecraft:iron_ingot" }
@@ -273,7 +284,13 @@
 		{
 			dependencies: ["5D981D87CFBB9AB2"]
 			id: "5DD8A32858F103DD"
-			size: 2.0d
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "75C6AB93A50C4EE8"
+				table_id: 1766666266666333109L
+				type: "loot"
+			}]
+			size: 1.5d
 			tasks: [{
 				id: "1E6D47FEF47CB7CE"
 				type: "checkmark"
@@ -282,7 +299,14 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["5D981D87CFBB9AB2"]
 			id: "314705C1EA3FA649"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7060089DD0292D26"
+				table_id: 1766666266666333109L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "07A945D94EE36A71"
 				item: { count: 1, id: "aeronautics:aviators_goggles" }
@@ -294,14 +318,22 @@
 		{
 			dependencies: ["79533C43ED9756FF"]
 			id: "05EE89E3B34FB981"
-			rewards: [{
-				id: "0DCF0D0D74464DA9"
-				item: {
-					count: 1
-					id: "simulated:throttle_lever"
+			rewards: [
+				{
+					id: "0DCF0D0D74464DA9"
+					item: {
+						count: 1
+						id: "simulated:throttle_lever"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "77C1529880B02713"
+					table_id: 1766666266666333109L
+					type: "loot"
+				}
+			]
 			tasks: [
 				{
 					id: "47406BC29EA48A4F"
@@ -319,26 +351,35 @@
 					type: "item"
 				}
 			]
-			x: 11.5d
+			x: 8.5d
 			y: -0.5d
 		}
 		{
 			dependencies: ["5D981D87CFBB9AB2"]
 			id: "79533C43ED9756FF"
-			rewards: [{
-				id: "32FC4181547F6FF6"
-				item: {
-					count: 1
-					id: "simulated:honey_glue"
+			rewards: [
+				{
+					id: "32FC4181547F6FF6"
+					item: {
+						count: 1
+						id: "simulated:honey_glue"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "630D70A70124895C"
+					table_id: 1766666266666333109L
+					type: "loot"
+				}
+			]
+			size: 1.5d
 			tasks: [{
 				id: "21BAFD58287372E0"
 				item: { count: 1, id: "simulated:physics_assembler" }
 				type: "item"
 			}]
-			x: 11.5d
+			x: 8.5d
 			y: -2.0d
 		}
 		{
@@ -362,6 +403,12 @@
 					}
 					type: "item"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "1736EB09E6EE6FB9"
+					table_id: 1766666266666333109L
+					type: "loot"
+				}
 			]
 			tasks: [
 				{
@@ -375,11 +422,18 @@
 					type: "item"
 				}
 			]
-			x: 11.5d
+			x: 8.5d
 			y: 1.0d
 		}
 		{
+			dependencies: ["5D981D87CFBB9AB2"]
 			id: "45CFA361BE7C3CA9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "317C81DBFB4AD1F2"
+				table_id: 1766666266666333109L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "39EF7229419C8DB0"
 				item: { count: 1, id: "grapplemod:grappling_hook" }
@@ -391,6 +445,12 @@
 		{
 			dependencies: ["53035386FFC19ACC"]
 			id: "7DD1054839F85538"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "56AD97E02F8FDDB0"
+				table_id: 1766666266666333109L
+				type: "loot"
+			}]
 			tasks: [
 				{
 					id: "650A6C45A9BD082F"
@@ -408,11 +468,18 @@
 					type: "item"
 				}
 			]
-			x: 11.5d
+			x: 8.5d
 			y: 2.5d
 		}
 		{
+			dependencies: ["5D981D87CFBB9AB2"]
 			id: "5CCD1C7F16267196"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "009495328D83D495"
+				table_id: 1766666266666333109L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "234BA6321AFF92D2"
 				item: { count: 1, id: "gyro:gyroscope" }
@@ -422,7 +489,14 @@
 			y: -0.5d
 		}
 		{
+			dependencies: ["5D981D87CFBB9AB2"]
 			id: "0452A5C18B584C42"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1C678CCBE9390A84"
+				table_id: 1766666266666333109L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "7AE5DFBBF01400EF"
 				item: { count: 1, id: "create_aeronautics_toolgun:survival_structure_tool" }
@@ -432,7 +506,14 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["5D981D87CFBB9AB2"]
 			id: "046547B3E133F834"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "78ACC3AB4D5E0570"
+				table_id: 1766666266666333109L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "1DC8FF9570DEFF14"
 				item: { count: 1, id: "simulated:plunger_launcher" }

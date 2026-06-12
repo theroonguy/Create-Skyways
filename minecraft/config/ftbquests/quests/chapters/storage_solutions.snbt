@@ -15,8 +15,14 @@
 		{
 			id: "3E4EBD2397A1B0C1"
 			linked_quest: "4F19C6503B5AB10F"
-			x: -2.5d
+			x: -0.5d
 			y: -3.0d
+		}
+		{
+			id: "1FD69426AF57EA23"
+			linked_quest: "40350382398D6F1B"
+			x: 3.5d
+			y: -4.5d
 		}
 	]
 	quests: [
@@ -26,13 +32,19 @@
 				"4EFDA1DD416CBE7D"
 			]
 			id: "02D42B372E6FC138"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4E21FBE2BFF76588"
+				table_id: 1766666266666333109L
+				type: "loot"
+			}]
 			size: 2.0d
 			tasks: [{
 				id: "470180308FA77941"
 				item: { count: 1, id: "ars_nouveau:storage_lectern" }
 				type: "item"
 			}]
-			x: -3.5d
+			x: 0.5d
 			y: 0.0d
 		}
 		{
@@ -43,6 +55,12 @@
 				"03486AFFC9917605"
 			]
 			id: "4ABD5E78A1859F36"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2583F1F9F4383855"
+				table_id: 1766666266666333109L
+				type: "loot"
+			}]
 			size: 2.0d
 			tasks: [{
 				id: "4FEA20BF9727FC3E"
@@ -55,6 +73,12 @@
 		{
 			dependencies: ["251F345863ECBC9C"]
 			id: "7C71F05C0CCAAFAD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6DE58A16F6FCE72B"
+				table_id: 1766666266666333109L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "7E70AB467E17D286"
 				item: { count: 1, id: "metalbundles:iron_bundle" }
@@ -65,40 +89,64 @@
 		}
 		{
 			id: "67125C01E9C76836"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "288A52286976C89D"
+				table_id: 1766666266666333109L
+				type: "loot"
+			}]
 			size: 2.0d
 			tasks: [{
 				id: "0A36025D1C4D3621"
 				item: { count: 1, id: "travelertoolbelt:belt" }
 				type: "item"
 			}]
-			x: 12.0d
+			x: 10.5d
 			y: -4.0d
 		}
 		{
 			dependencies: ["4F19C6503B5AB10F"]
 			id: "2D15FF71E179CE6C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "48C494622157A407"
+				table_id: 1766666266666333109L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "5F643194CFEFC81B"
 				item: { count: 1, id: "ars_nouveau:bookwyrm_charm" }
 				type: "item"
 			}]
-			x: -2.5d
+			x: -0.5d
 			y: -1.5d
 		}
 		{
 			id: "4A678610A45D5838"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "71859745568D1D2A"
+				table_id: 1766666266666333109L
+				type: "loot"
+			}]
 			size: 2.0d
 			tasks: [{
 				id: "72D42A36DA1343AE"
 				item: { count: 1, id: "metalbundles:leather_bundle" }
 				type: "item"
 			}]
-			x: 9.5d
+			x: 8.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["4A678610A45D5838"]
 			id: "251F345863ECBC9C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "54256EBA0DF7EA5B"
+				table_id: 1766666266666333109L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "39F8D994FE8B7D9D"
 				item: { count: 1, id: "metalbundles:copper_bundle" }
@@ -110,50 +158,80 @@
 		{
 			dependencies: ["67125C01E9C76836"]
 			id: "0FDD8998B0D3C014"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3D97F62881F092ED"
+				table_id: 1766666266666333109L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "48C70EBC728A8070"
 				item: { count: 1, id: "travelertoolbelt:copper_belt" }
 				type: "item"
 			}]
-			x: 12.0d
+			x: 11.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["0FDD8998B0D3C014"]
 			id: "312B0B3D3EEF5D2E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4A06DC1EE2A5390D"
+				table_id: 1766666266666333109L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "505BD6E317D73254"
 				item: { count: 1, id: "travelertoolbelt:iron_belt" }
 				type: "item"
 			}]
-			x: 12.0d
+			x: 11.0d
 			y: -0.5d
 		}
 		{
 			dependencies: ["56C33261C14917EE"]
 			id: "52745EC319B31E2B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2DA0B2166CE50ECE"
+				table_id: 1766666266666333109L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "2C10A66ECB90719B"
 				item: { components: { "sophisticatedcore:accent_color": -393218, "sophisticatedcore:main_color": -393218 }, count: 1, id: "sophisticatedstorage:copper_barrel" }
 				type: "item"
 			}]
-			x: 14.5d
+			x: 12.5d
 			y: -2.0d
 		}
 		{
 			dependencies: ["52745EC319B31E2B"]
 			id: "6A8E4CDAFBFBF650"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "26272D464BB7C02F"
+				table_id: 1766666266666333109L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "234DE0E6DF79D1C6"
 				item: { components: { "sophisticatedcore:accent_color": -393218, "sophisticatedcore:main_color": -393218 }, count: 1, id: "sophisticatedstorage:iron_barrel" }
 				type: "item"
 			}]
-			x: 14.5d
+			x: 12.5d
 			y: -0.5d
 		}
 		{
 			dependencies: ["7C71F05C0CCAAFAD"]
 			id: "6D6F6DE383A99F9B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3C202EA5BF24C8C6"
+				table_id: 1766666266666333109L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "45703B9635C8E7EC"
 				item: { count: 1, id: "metalbundles:golden_bundle" }
@@ -165,6 +243,12 @@
 		{
 			dependencies: ["6D6F6DE383A99F9B"]
 			id: "440FA9330291B66A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "575EE87E9572FA09"
+				table_id: 1766666266666333109L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "7C4AA48FCABDEEDA"
 				item: { count: 1, id: "metalbundles:diamond_bundle" }
@@ -176,6 +260,12 @@
 		{
 			dependencies: ["440FA9330291B66A"]
 			id: "734716488DD1EC26"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "22F284039D5BE9A9"
+				table_id: 1766666266666333109L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "4A649B0E524BEC9F"
 				item: { count: 1, id: "metalbundles:netherite_bundle" }
@@ -187,82 +277,131 @@
 		{
 			dependencies: ["312B0B3D3EEF5D2E"]
 			id: "29B99F24E9564BF9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4C95A90FE74A25F2"
+				table_id: 1766666266666333109L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "508FE74D721171FF"
 				item: { count: 1, id: "travelertoolbelt:gold_belt" }
 				type: "item"
 			}]
-			x: 12.0d
+			x: 11.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["29B99F24E9564BF9"]
 			id: "0D4D3CEE37223F3F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0CAA6C72329357E0"
+				table_id: 1766666266666333109L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "649049A534A7829A"
 				item: { count: 1, id: "travelertoolbelt:diamond_belt" }
 				type: "item"
 			}]
-			x: 12.0d
+			x: 11.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["0D4D3CEE37223F3F"]
 			id: "47A25D4F4C4C4794"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "16D149523DF39172"
+				table_id: 1766666266666333109L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "3C8CC3B5C6051EA3"
 				item: { count: 1, id: "travelertoolbelt:netherite_belt" }
 				type: "item"
 			}]
-			x: 12.0d
+			x: 11.0d
 			y: 4.0d
 		}
 		{
 			id: "56C33261C14917EE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4B08B0DC202E54A1"
+				table_id: 1766666266666333109L
+				type: "loot"
+			}]
 			size: 2.0d
 			tasks: [{
 				id: "0DBC5BFBAAD1C28C"
 				item: { count: 1, id: "minecraft:barrel" }
 				type: "item"
 			}]
-			x: 14.5d
+			x: 13.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["6A8E4CDAFBFBF650"]
 			id: "6413BD061DC03B51"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2F5BD6BD6EF105D9"
+				table_id: 1766666266666333109L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "766B0BCEA55EBBBC"
 				item: { components: { "sophisticatedcore:accent_color": -393218, "sophisticatedcore:main_color": -393218 }, count: 1, id: "sophisticatedstorage:gold_barrel" }
 				type: "item"
 			}]
-			x: 14.5d
+			x: 12.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["6413BD061DC03B51"]
 			id: "34ECF7B9941BE7F6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7D16FF29500EC962"
+				table_id: 1766666266666333109L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "13EA81CE03BFD514"
 				item: { components: { "sophisticatedcore:accent_color": -393218, "sophisticatedcore:main_color": -393218 }, count: 1, id: "sophisticatedstorage:diamond_barrel" }
 				type: "item"
 			}]
-			x: 14.5d
+			x: 12.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["34ECF7B9941BE7F6"]
 			id: "50FD4306B41752FE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "752F6085EB252168"
+				table_id: 1766666266666333109L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "4FB3E7A0EE97317E"
 				item: { components: { "sophisticatedcore:accent_color": -393218, "sophisticatedcore:main_color": -393218 }, count: 1, id: "sophisticatedstorage:netherite_barrel" }
 				type: "item"
 			}]
-			x: 14.5d
+			x: 12.5d
 			y: 4.0d
 		}
 		{
+			dependencies: ["40350382398D6F1B"]
 			id: "4BCDD46C67CBA8EF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4F2DAD236F551216"
+				table_id: 1766666266666333109L
+				type: "loot"
+			}]
 			tasks: [
 				{
 					id: "67A51AC168871F88"
@@ -279,7 +418,14 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["40350382398D6F1B"]
 			id: "5478A7ADA1163CA1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4B21CB9D864CE5C4"
+				table_id: 1766666266666333109L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "59E21D926E0DD1E1"
 				item: { count: 1, id: "create:stock_link" }
@@ -289,7 +435,14 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["40350382398D6F1B"]
 			id: "417F73A2246F5C91"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "29ECF2366DB3F1D8"
+				table_id: 1766666266666333109L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "6889D19A237344B0"
 				item: { count: 1, id: "create:package_frogport" }
@@ -299,7 +452,14 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["40350382398D6F1B"]
 			id: "03486AFFC9917605"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7C424C344C60F2FE"
+				table_id: 1766666266666333109L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "5A55A3EBD2BD42FA"
 				item: { count: 1, id: "create:packager" }
@@ -307,6 +467,118 @@
 			}]
 			x: 5.5d
 			y: -1.5d
+		}
+		{
+			id: "3E09BAF16CCF4375"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3417C9E6D4F251CD"
+				table_id: 1766666266666333109L
+				type: "loot"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "1DC9DA3CA4209F69"
+				item: { count: 1, id: "sophisticatedbackpacks:backpack" }
+				type: "item"
+			}]
+			x: 15.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3E09BAF16CCF4375"]
+			id: "78F006B707F7B16C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "25FDAF4454BBA3AC"
+				table_id: 1766666266666333109L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "44BBAFDC98F47D6A"
+				item: { count: 1, id: "sophisticatedbackpacks:copper_backpack" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["78F006B707F7B16C"]
+			id: "4887C1A64A075FAC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2B05293771767AAE"
+				table_id: 1766666266666333109L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "30E256B98E6DAEC2"
+				item: { count: 1, id: "sophisticatedbackpacks:iron_backpack" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4887C1A64A075FAC"]
+			id: "37E58E180AD2E6E7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "48443AF73C044DD9"
+				table_id: 1766666266666333109L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "191E16E5CFA2951C"
+				item: { count: 1, id: "sophisticatedbackpacks:gold_backpack" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["37E58E180AD2E6E7"]
+			id: "67F3443C8EB63805"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4F2D49D50D7226DC"
+				table_id: 1766666266666333109L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "31E732254D219A30"
+				item: { count: 1, id: "sophisticatedbackpacks:diamond_backpack" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["67F3443C8EB63805"]
+			id: "632EE23BD4D817BF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7984E4064F34DA45"
+				table_id: 1766666266666333109L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "4D65C535D66C7FEF"
+				item: { count: 1, id: "sophisticatedbackpacks:netherite_backpack" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 4.0d
+		}
+		{
+			id: "41D20372DCAA67FC"
+			tasks: [{
+				id: "16A640D9C7818F19"
+				item: { count: 1, id: "create:brown_toolbox" }
+				type: "item"
+			}]
+			x: 18.5d
+			y: -2.0d
 		}
 	]
 }

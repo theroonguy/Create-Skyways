@@ -1,21 +1,21 @@
 {
 	chapter.11E83CF66FCD2FF4.title: "The Aether"
-	chapter.1D7854C2EF41C28C.chapter_subtitle: [
-		"Grass not included"
-		"Now featuring showers!"
-	]
+	chapter.1D7854C2EF41C28C.chapter_subtitle: ["The Sky's The Limit"]
 	chapter.1D7854C2EF41C28C.title: "Pilot"
 	chapter.2DFEFA162458A902.title: "Quest for the Aether"
+	chapter.397096E7EF9998B5.chapter_subtitle: [
+		"Grass Not Included"
+		"Now Featuring Showers!"
+	]
 	chapter.397096E7EF9998B5.title: "Engineer"
-	chapter.3F0DAB8A4879A6BE.chapter_subtitle: ["Capitalism, in Minecraft"]
-	chapter.3F0DAB8A4879A6BE.title: "Trading"
-	chapter.437D42E50542F67F.chapter_subtitle: ["Cheffing it up!"]
+	chapter.437D42E50542F67F.chapter_subtitle: ["Cheffing it up"]
 	chapter.437D42E50542F67F.title: "Farmer/Chef"
 	chapter.4B12125995746416.title: "Introduction"
-	chapter.600661E33F468F67.chapter_subtitle: ["The Sky's the Limit"]
+	chapter.600661E33F468F67.chapter_subtitle: ["Go Build That City"]
 	chapter.600661E33F468F67.title: "Builder"
 	chapter.6212B5C9E204C0F8.chapter_subtitle: ["Store Your Stuff"]
 	chapter.6212B5C9E204C0F8.title: "Item Management"
+	chapter.6807243F07A00BD3.chapter_subtitle: ["Dollar Tree Hogwarts"]
 	chapter.6807243F07A00BD3.title: "Sourcerer"
 	chapter_group.1653400F3F15164B.title: "Quests"
 	chapter_group.758160106C477F5B.title: "Disciplines"
@@ -29,6 +29,8 @@
 	quest.05EE89E3B34FB981.quest_desc: ["These components make up the foundations of an airship: the &eHot Air Envelope&r gets filled up with hot air from the &eHot Air Burner&r, which can be powered variably with the &eAnalog Lever&r. On a simulated contraption, this makes it float."]
 	quest.05EE89E3B34FB981.quest_subtitle: "Taking to the Skies"
 	quest.05EE89E3B34FB981.title: "Your First Airship"
+	quest.079F149BF68901D4.quest_desc: [""]
+	quest.079F149BF68901D4.quest_subtitle: "Your First Cooker"
 	quest.09AFAD6927F19B34.title: "Ochrum Vent"
 	quest.0EB695DEAB9A5640.title: "Crimsite Vent"
 	quest.0FAAAE1BC0382F9A.title: "Veridium Vent"
@@ -39,10 +41,36 @@
 	]
 	quest.1047E6355C1B7896.quest_subtitle: "The Journey Begins"
 	quest.1047E6355C1B7896.title: "Engineering"
+	quest.1247EEA1B9876C28.title: "Bank Account"
+	quest.14241E7425A0E59C.quest_desc: [
+		"Farmer's Delight brings in a whole swath of new fancy food items that can nearly fill your whole hunger bar in one bite! Plus it's pretty aesthetic too."
+		""
+		"You'll need a stove to put it on, first."
+	]
+	quest.14241E7425A0E59C.quest_subtitle: "Good Soup"
+	quest.21179EDC9FEB70B5.quest_desc: ["These suspiciously cheap blocks are great for industrial builds on a budget!"]
+	quest.21179EDC9FEB70B5.quest_subtitle: "If IKEA Made Steel Blocks"
+	quest.26A4683659D90B17.title: "Monorails!"
+	quest.2847DA5C76D3234C.quest_subtitle: "Ore Tripling"
+	quest.2B30BCDB739CF4F8.quest_desc: ["Used to prepare ingredients!"]
+	quest.2B30BCDB739CF4F8.quest_subtitle: "I Sure Hope It Doesn't!"
+	quest.306E4A8DA0448395.quest_desc: ["As oceans are too far away from this place, this is all the kelp you have left in store. Use it wisely, and start a kelp farm before using it all up!"]
+	quest.306E4A8DA0448395.quest_subtitle: "Need Some Kelp With That?"
+	quest.336D87FAC05551F2.quest_desc: ["The Extendo-Grip, when in the offhand, extends the reach of your primary hand. Useful for building from afar. Or prodding stuff from a distance..."]
+	quest.336D87FAC05551F2.quest_subtitle: "Footlong"
 	quest.384D109010014537.quest_desc: ["In this profession you will discover and harness the underlying arcane energy that flows throughout this world: Source. Not only is the only way to the Aether through incredible volumes of it, but with this knowledge comes unimaginable powers that can let you bend the forces to your will."]
 	quest.384D109010014537.quest_subtitle: "I Like Your Funny Words, Magic Man"
 	quest.384D109010014537.title: "Sourcering"
 	quest.3EB47721C54AA402.title: "Arcane Enchanting"
+	quest.40350382398D6F1B.quest_desc: [
+		"In &lCreate&r, you use &eStress&r to power machines, which can be used to automate the gathering, processing, and construction of components."
+		""
+		"Here, we'll automate generation of &eIron Ingots&r. You can then use these machines, along with others, to automate many other resources."
+		""
+		"Remember, you can hold the &e[W]&r key on most Create items to learn how to use them."
+	]
+	quest.40350382398D6F1B.quest_subtitle: "Factorio But Minecraft"
+	quest.413E7C763032D1B0.quest_subtitle: "In Case The Jungle Is Far"
 	quest.435CC8146FE93749.quest_desc: ["This is a test"]
 	quest.435CC8146FE93749.title: "HELLO!"
 	quest.437F1A5F4939D457.quest_desc: [
@@ -70,6 +98,8 @@
 		"If you are unsure how to proceed, you can follow the Advancements by pressing [L]. This generally works for other important mods as well, like Ars Nouveau."
 	]
 	quest.4399FD99AFDFFA6F.quest_subtitle: "Gotta Start Somewhere!"
+	quest.44A69612B7A74FB0.quest_desc: ["Although somewhat expensive, the Wand of Symmetry lets you build mirrored builds along one or more axes sooo much faster. Practically anything you place will look intentional."]
+	quest.44A69612B7A74FB0.quest_subtitle: "Master Builder"
 	quest.45CFA361BE7C3CA9.quest_desc: [
 		"Using a &eGrappling Hook&r you can swing from island to island and even on Simulated contraptions!"
 		""
@@ -77,6 +107,8 @@
 	]
 	quest.4A678610A45D5838.title: "Bundles"
 	quest.4ABD5E78A1859F36.title: "Create Packages"
+	quest.4D3C67556D73C7CD.quest_desc: ["Using the &lCivillis&r mod, mobs will automatically stay away from player-made cities, especially when they're bigger. No more spamming torches everywhere, baby!"]
+	quest.4D3C67556D73C7CD.quest_subtitle: "U Stinky"
 	quest.4DEBAF6A6EDC5A7A.quest_desc: ["Using the &eSchematicannon&r, you can effectively copy and paste builds between this world, and even from a creative world!"]
 	quest.4DEBAF6A6EDC5A7A.quest_subtitle: "Become the Master Builder"
 	quest.521EC12D24865033.title: "The Aether"
@@ -85,12 +117,14 @@
 	quest.53035386FFC19ACC.title: "Thrust!"
 	quest.5423F901A6A80391.title: "Scorchia Vent"
 	quest.56C33261C14917EE.title: "Sophisticated Barrels"
+	quest.58DE025B8F170734.title: "Renewable Diamonds"
 	quest.5CCD1C7F16267196.quest_desc: ["This Aeronautics addon gives an easier way to automatically stabilize simulated contraptions."]
 	quest.5D981D87CFBB9AB2.quest_desc: ["As an Aviator, you will explore the world by sky and reap its rewards, bringing back vast wealth to your community. You will design and construct the airships that will both bridge our peoples and take us further than ever before."]
 	quest.5D981D87CFBB9AB2.quest_subtitle: "Strap In"
 	quest.5D981D87CFBB9AB2.title: "Piloting"
 	quest.5DD8A32858F103DD.quest_desc: ["In order to automate the most fundamental resources, you can find dormant &lMolten Vents&r scattered across the world. Explode them by any means necessary to activate them, and then they will convert lava into their respective blocks."]
 	quest.5DD8A32858F103DD.quest_subtitle: "Geographic Automation"
+	quest.5EC3497F29FBAD9C.quest_subtitle: "Fry An Egg"
 	quest.5FAF9DC33A8120CF.quest_desc: [
 		"Paragliders are the first way to fly in the sky, but certainly not the only. If I hold one in my hand and drop, it'll automatically deploy."
 		""
@@ -98,15 +132,25 @@
 	]
 	quest.5FAF9DC33A8120CF.title: "TIP: Life in the Skies"
 	quest.606E802FFC65B491.title: "Asurine Vent"
+	quest.60EDC593BC5977E3.quest_desc: ["Protects areas from mob spawns."]
+	quest.60EDC593BC5977E3.quest_subtitle: "Mobs Begone"
 	quest.666D5272DE3EEC12.quest_desc: ["Using ImmersivePaintings, you can upload any picture, screenshot, or URL to bring images from your computer into this world! It's pretty cool try it out."]
 	quest.666D5272DE3EEC12.quest_subtitle: "A Man Can Meme"
 	quest.666D5272DE3EEC12.title: "Custom Paintings"
 	quest.67125C01E9C76836.title: "Traveler's Tool Belts"
+	quest.676F25E13FB7F546.quest_desc: ["The Chipped workbenches are one of the best ways to get into modded building. They allow for easy retexturing of many common vanilla blocks, and can even be crafted into tools for portability! In fact, the Chisel you made already is one of them."]
+	quest.676F25E13FB7F546.quest_subtitle: "Infinite Variations"
+	quest.676F25E13FB7F546.title: "Chipped Workbenches"
+	quest.6DF6171AF0F6F932.quest_desc: ["Not a great weapon. Unless it's against onions."]
 	quest.6DF6171AF0F6F932.quest_subtitle: "Chef's Best Friend"
 	quest.6DF6171AF0F6F932.title: "Knife"
-	quest.764347D861948562.quest_desc: ["Ah, the humble Farmer: the most therapeutic role, and also the most supportive. The only resource that will never lose its value is sustenance. Here, you will turn food from a chore into an art, and make a pretty penny while you're at it."]
+	quest.743B99B9EE41BA66.quest_desc: ["The Mech Trowel will automatically randomize block placements based off of what is in your hotbar. Pretty useful for texturing!"]
+	quest.743B99B9EE41BA66.quest_subtitle: "Mastering Block Vomit"
+	quest.764347D861948562.quest_desc: ["Ah, the humble Farmer: the most therapeutic role, and also the most supportive. The only resource that will never lose its value is sustenance. Here, you will turn food from a chore into an art, and make a tidy sum while you're at it."]
 	quest.764347D861948562.quest_subtitle: "Okay Grandma"
 	quest.764347D861948562.title: "Farming/Cooking"
+	quest.77D0DA4CEBEBDE35.quest_desc: ["The stonecutter cuts a bit better than you remember..."]
+	quest.77D0DA4CEBEBDE35.quest_subtitle: "Grey Thumb"
 	quest.79533C43ED9756FF.quest_desc: [
 		"The &ePhysics Assembler&r imbues blocks with physics. Once you get past how cursed it looks, you'll realize how much it can let you make. Planes, trucks, mobile bases, swinging bridges... the list goes on!"
 		""
@@ -115,6 +159,8 @@
 	quest.79533C43ED9756FF.quest_subtitle: "Ugh, Not the Freebody Diagrams Again"
 	quest.79533C43ED9756FF.title: "Physics 101"
 	quest.7C71F05C0CCAAFAD.title: "Metal Bundles"
+	quest.7DA202A061E62727.quest_desc: ["We'll start by making some simple, practical spells: slow fall, air jumps and night vision. "]
+	quest.7DA202A061E62727.quest_subtitle: "Programming Spells"
 	quest.7DD1054839F85538.quest_desc: [
 		"Lastly, steering can be accomplished using &eSymmetric Sails&r attached to a&e Mechanical Bearing&r at the back of the airship. This can then be controlled with a &eSteering Wheel&r connected by &eShafts&r."
 		""
@@ -124,23 +170,30 @@
 	quest.7DD1054839F85538.title: "Steering"
 	quest.7DE745F6F53E644D.quest_subtitle: "Capitalism, in Minecraft"
 	quest.7DE745F6F53E644D.title: "Bank Account"
+	quest.7E011019041FA0F1.quest_subtitle: "Recycling"
 	reward_table.1884759BFD4FF3B5.title: "Progress"
 	task.036576DA253CE3B4.title: "Effortless Building"
 	task.085CEF571EC594F1.title: "Any #handcrafted:cushions"
 	task.08AA9D3633DDBB21.title: "Numismatics"
 	task.0A8BEAAF47DB1ED3.title: "Welcome to Create: Skyways!"
 	task.0D73C0B206884A98.title: "testing"
+	task.0E1C92CF9A67D611.title: "Introduction to Create"
 	task.123A88F27CD955F3.title: "Any #aeronautics:envelope"
 	task.1E6D47FEF47CB7CE.title: "Molten Vents"
+	task.1EB2F7620A88167C.title: "Any #numismatics:cards"
+	task.1EC7E8F41907D1D9.title: "Any #c:stripped_logs"
 	task.1FE1D41013F632F0.title: "Any #numismatics:cards"
 	task.21575CFD5311F3D6.title: "Any #create:stone_types/asurine"
 	task.2844FCD141C77693.title: "Any #handcrafted:fancy_beds"
+	task.29440032FF793974.title: "TIP: Mob Awareness"
 	task.2F2A88186C95C034.title: "Understanding Source"
 	task.2F5C195B7848896C.title: "Any #farmersdelight:tools/knives"
 	task.3D03DE64775C270B.title: "So... You Wanna Be An Engineer?"
 	task.3F6D6AA005C632D6.title: "Any #handcrafted:chairs"
 	task.411F0D5350FF19D9.title: "Any #c:logs/archwood"
 	task.5E51E9F92F6C0EDA.title: "TIP: Living in the Skies"
+	task.6A87B8F43525F53A.title: "Kelp"
+	task.6C64DB7AB4FAEF3B.title: "Bank Account"
 	task.6CFD732677183D9E.title: "Any #handcrafted:couches"
 	task.6FA982EE73A2E742.title: "Any #c:seeds"
 	task.7286BFEC2B4361AA.title: "TIP: Learning the Mods"

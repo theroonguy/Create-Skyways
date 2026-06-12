@@ -3,11 +3,15 @@
 	default_quest_shape: ""
 	filename: "farming"
 	group: "758160106C477F5B"
+	icon: {
+		id: "farmersdelight:skillet"
+	}
 	id: "437D42E50542F67F"
 	order_index: 1
 	quest_links: [{
 		id: "41F2A61FD5051ED2"
 		linked_quest: "764347D861948562"
+		size: 2.0d
 		x: 6.0d
 		y: -5.0d
 	}]
@@ -15,6 +19,12 @@
 		{
 			dependencies: ["6DF6171AF0F6F932"]
 			id: "2B30BCDB739CF4F8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4D3826409F8B017A"
+				table_id: 1766666266666333109L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "085F9847EDD42D6F"
 				item: { count: 1, id: "farmersdelight:cutting_board" }
@@ -26,6 +36,12 @@
 		{
 			dependencies: ["764347D861948562"]
 			id: "6DF6171AF0F6F932"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "23C7E05185D14E47"
+				table_id: 1766666266666333109L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "2F5C195B7848896C"
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(farmersdelight:tools/knives)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -37,6 +53,12 @@
 		{
 			dependencies: ["237A25102BE8867A"]
 			id: "5EC3497F29FBAD9C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "179E9C46D827E41E"
+				table_id: 1766666266666333109L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "7EA5F9CC3F2CBB63"
 				item: { count: 1, id: "farmersdelight:skillet" }
@@ -48,6 +70,12 @@
 		{
 			dependencies: ["764347D861948562"]
 			id: "14241E7425A0E59C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5B5CCAB52BD519A8"
+				table_id: 1766666266666333109L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "40C57A9BF6628625"
 				item: { count: 1, id: "farmersdelight:cooking_pot" }
@@ -59,6 +87,12 @@
 		{
 			dependencies: ["14241E7425A0E59C"]
 			id: "237A25102BE8867A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "74E77E7C4403AF4A"
+				table_id: 1766666266666333109L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "46D664E3DC50D5F1"
 				item: { count: 1, id: "farmersdelight:stove" }
@@ -70,6 +104,12 @@
 		{
 			dependencies: ["764347D861948562"]
 			id: "079F149BF68901D4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "667F008BE64DAED7"
+				table_id: 1766666266666333109L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "304EE2D794BE1D51"
 				item: { count: 1, id: "minecraft:campfire" }
@@ -80,6 +120,12 @@
 		}
 		{
 			id: "1A7641C30085852A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2C1C42CE232C57CF"
+				table_id: 1766666266666333109L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "7C4905AA653CFFDB"
 				item: { count: 1, id: "croptopia:doughnut" }
@@ -90,6 +136,12 @@
 		}
 		{
 			id: "673B0C6F98454D3D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "427ED9A8A7B27AF3"
+				table_id: 1766666266666333109L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "2D7EB5306789CFA8"
 				item: { count: 1, id: "farmersdelight:shepherds_pie_block" }
@@ -100,6 +152,12 @@
 		}
 		{
 			id: "0FDB0EEAF8AD2FD0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "754948E2A23396B7"
+				table_id: 1766666266666333109L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "689AA1A431987FAA"
 				item: { count: 1, id: "createfood:sausage_bacon_pizza" }
@@ -110,6 +168,12 @@
 		}
 		{
 			id: "4500C8675281F79A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "15550333E4FE6692"
+				table_id: 1766666266666333109L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "6CD2B0F7D4749AB5"
 				item: { count: 1, id: "farmersdelight:ratatouille" }
@@ -120,6 +184,12 @@
 		}
 		{
 			id: "69ECC3707E97CD2C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5259261DB1413F0C"
+				table_id: 1766666266666333109L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "7DB9C350C7856DB5"
 				item: { count: 1, id: "croptopia:toast_sandwich" }
@@ -130,6 +200,12 @@
 		}
 		{
 			id: "5E4928B073273264"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4648519887D288D3"
+				table_id: 1766666266666333109L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "01BB27FE899E9EA4"
 				item: { count: 1, id: "createfood:kelp_roll_fish" }
@@ -140,6 +216,12 @@
 		}
 		{
 			id: "12E327CA44AB91C3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "115C2B1E508427AF"
+				table_id: 1766666266666333109L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "7FF44458761E9CF9"
 				item: { count: 1, id: "farmersdelight:rice_roll_medley_block" }

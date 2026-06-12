@@ -1,6 +1,6 @@
 # LambDynamicLights configuration.
 # The dynamic lights mode
-mode = "fastest"
+mode = "off"
 # The chunk rebuild scheduler mode (immediate, culling).
 chunk_rebuild_scheduler = "culling"
 
@@ -193,6 +193,9 @@ chunk_rebuild_scheduler = "culling"
 				arcane_hammer_entity = true
 				arcane_whirl_entity = true
 
+			[light_sources.settings.entities.createdieselgenerators]
+				chemical_sprayer_projectile = true
+
 			[light_sources.settings.entities.lootr]
 				lootr_minecart = true
 				item_frame = true
@@ -236,6 +239,11 @@ chunk_rebuild_scheduler = "culling"
 				moa = true
 				cloud_crystal = true
 				tnt_present = true
+
+			[light_sources.settings.entities.railways]
+				conductor = true
+				benchcart = true
+				jukeboxcart = true
 
 			[light_sources.settings.entities.biomeswevegone]
 				pumpkin_warden = true
@@ -307,6 +315,11 @@ chunk_rebuild_scheduler = "culling"
 			[light_sources.settings.entities.envelope]
 				pigeon = true
 
+			[light_sources.settings.entities.exposure]
+				glass_photograph_frame = true
+				camera_stand = true
+				photograph_frame = true
+
 			[light_sources.settings.entities.quark]
 				quark_boat = true
 				dyed_item_frame = true
@@ -353,8 +366,10 @@ chunk_rebuild_scheduler = "culling"
 
 [debug]
 	active_dynamic_lighting_cells = false
+	cell_display_radius = 0
 	display_dynamic_lighting_chunk_rebuild = false
 	display_behavior_bounding_box = false
+	light_level_radius = 0
 
 [adaptive_ticking]
 	# Reduces how often sources behind the camera get ticked.

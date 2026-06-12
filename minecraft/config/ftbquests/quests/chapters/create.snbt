@@ -7,88 +7,6 @@
 		id: "kubejs:aether_frame"
 	}
 	id: "2DFEFA162458A902"
-	images: [
-		{
-			height: 4.0d
-			image: "aether_redux:block/natural/fieldsproot_leaves_4"
-			rotation: 0.0d
-			width: 4.0d
-			x: 26.0d
-			y: -4.0d
-		}
-		{
-			height: 3.0d
-			image: "aether_redux:block/natural/gilded_oak_leaves"
-			rotation: 0.0d
-			width: 3.0d
-			x: 22.0d
-			y: -3.5d
-		}
-		{
-			height: 4.0d
-			image: "deep_aether:block/blue_roseroot_leaves"
-			rotation: 0.0d
-			width: 4.0d
-			x: 24.0d
-			y: -1.5d
-		}
-		{
-			height: 3.0d
-			image: "aether_redux:block/natural/fieldsproot_leaves_4"
-			rotation: 0.0d
-			width: 3.0d
-			x: 21.0d
-			y: 1.5d
-		}
-		{
-			height: 5.0d
-			image: "aether_redux:block/natural/fieldsproot_leaves_5"
-			rotation: 0.0d
-			width: 5.0d
-			x: 26.0d
-			y: 2.0d
-		}
-		{
-			height: 4.0d
-			image: "aether_redux:block/natural/fieldsproot_leaves_0"
-			rotation: 0.0d
-			width: 4.0d
-			x: 23.5d
-			y: 2.5d
-		}
-		{
-			height: 4.0d
-			image: "aether_redux:block/natural/shimmering_crystal_leaves"
-			rotation: 0.0d
-			width: 4.0d
-			x: 19.5d
-			y: 0.0d
-		}
-		{
-			height: 4.0d
-			image: "aether_redux:block/natural/fieldsproot_leaves_4"
-			rotation: 0.0d
-			width: 4.0d
-			x: 21.5d
-			y: -0.5d
-		}
-		{
-			height: 4.0d
-			image: "aether_redux:block/natural/purple_glacia_leaves"
-			rotation: 0.0d
-			width: 4.0d
-			x: 26.0d
-			y: -1.0d
-		}
-		{
-			height: 5.0d
-			image: "aether_redux:block/natural/fieldsproot_leaves_6"
-			rotation: 0.0d
-			width: 5.0d
-			x: 28.0d
-			y: -0.5d
-		}
-	]
 	order_index: 0
 	quest_links: [
 		{
@@ -103,6 +21,36 @@
 			x: 13.0d
 			y: 3.5d
 		}
+		{
+			id: "0953CF65AB0AD615"
+			linked_quest: "558708A9A327688A"
+			x: 13.0d
+			y: -1.5d
+		}
+		{
+			id: "3C1C67D39764E13A"
+			linked_quest: "71A1038F126B7E46"
+			x: 18.5d
+			y: -2.5d
+		}
+		{
+			id: "29A65DB6720010A0"
+			linked_quest: "0E7B90312F2CB517"
+			x: 15.5d
+			y: 1.5d
+		}
+		{
+			id: "5BE8F316224E278A"
+			linked_quest: "15A2CD5460F31A7E"
+			x: 15.5d
+			y: 3.5d
+		}
+		{
+			id: "63C1F7318AEB304D"
+			linked_quest: "35922FA030491B05"
+			x: 15.5d
+			y: -1.5d
+		}
 	]
 	quests: [
 		{
@@ -110,10 +58,16 @@
 				"20777EB58E0114EE"
 				"0E07280B9FB05EAF"
 				"2D3A265DBAA0F24B"
-				"6DDC2A1790640D17"
 				"156885C0A91C9E81"
+				"71A1038F126B7E46"
 			]
 			id: "6313E75642086CEC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "477B6864D90459A0"
+				table_id: 1766666266666333109L
+				type: "loot"
+			}]
 			shape: "gear"
 			size: 2.5d
 			tasks: [{
@@ -127,11 +81,17 @@
 		{
 			dependencies: [
 				"30DDCB3C19C24F29"
-				"3E8B06AFE50140D0"
-				"7AD3B20DEC708A32"
-				"6225CC705AC2C7D4"
+				"0E7B90312F2CB517"
+				"15A2CD5460F31A7E"
+				"35922FA030491B05"
 			]
 			id: "20777EB58E0114EE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6FD784D6DFE00789"
+				table_id: 1766666266666333109L
+				type: "loot"
+			}]
 			size: 1.5d
 			tasks: [{
 				id: "4FEF23D2FAE3EFF4"
@@ -142,17 +102,14 @@
 			y: 0.0d
 		}
 		{
-			id: "6DDC2A1790640D17"
-			tasks: [{
-				id: "777DE4C50C8E8F6B"
-				item: { count: 1, id: "kubejs:adamantine_plate" }
-				type: "item"
-			}]
-			x: 18.5d
-			y: -2.5d
-		}
-		{
+			dependencies: ["75F12146846C917D"]
 			id: "2D3A265DBAA0F24B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3AB32019BA2A278F"
+				table_id: 1766666266666333109L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "65EDE7EFECC385F9"
 				item: { count: 1, id: "minecraft:glowstone" }
@@ -162,7 +119,14 @@
 			y: 2.5d
 		}
 		{
+			dependencies: ["1247EEA1B9876C28"]
 			id: "0E07280B9FB05EAF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3F30783081E0F1DD"
+				table_id: 1766666266666333109L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "1CB434C7E347382D"
 				item: { count: 1, id: "numismatics:sun" }
@@ -173,11 +137,17 @@
 		}
 		{
 			dependencies: [
-				"5A18588E6E2210C9"
 				"3EB47721C54AA402"
 				"2C7CF819DAA25075"
+				"558708A9A327688A"
 			]
 			id: "30DDCB3C19C24F29"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3BA34DC51EC4CEEA"
+				table_id: 1766666266666333109L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "6DC71F08C8805768"
 				item: { count: 1, id: "ars_technica:calibrated_precision_mechanism" }
@@ -187,54 +157,15 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["6109973FADFF2E55"]
-			id: "5A18588E6E2210C9"
-			tasks: [{
-				id: "7700BE857E6F59CC"
-				item: { count: 1, id: "create:precision_mechanism" }
-				type: "item"
-			}]
-			x: 13.0d
-			y: -1.5d
-		}
-		{
-			id: "3E8B06AFE50140D0"
-			tasks: [{
-				id: "2CAD4330EE7B8667"
-				item: { count: 1, id: "create:electron_tube" }
-				type: "item"
-			}]
-			x: 15.5d
-			y: -1.5d
-		}
-		{
-			id: "7AD3B20DEC708A32"
-			tasks: [{
-				id: "33C70C2D8EE914DA"
-				item: { count: 1, id: "ars_nouveau:air_essence" }
-				type: "item"
-			}]
-			x: 15.5d
-			y: 1.5d
-		}
-		{
-			id: "6225CC705AC2C7D4"
-			tasks: [{
-				id: "5390C76C730EFDF0"
-				item: { count: 1, id: "ars_nouveau:manipulation_essence" }
-				type: "item"
-			}]
-			x: 15.5d
-			y: 3.5d
-		}
-		{
-			dependencies: [
-				"30DDCB3C19C24F29"
-				"5A18588E6E2210C9"
-				"6225CC705AC2C7D4"
-			]
+			dependencies: ["30DDCB3C19C24F29"]
 			hide_dependency_lines: true
 			id: "156885C0A91C9E81"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "35FC2754C204F1C7"
+				table_id: 1766666266666333109L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "523F909F3007C188"
 				item: { count: 1, id: "ars_technica:mark_of_technomancy" }
@@ -244,46 +175,15 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["765978E3208F2EA5"]
-			id: "6109973FADFF2E55"
-			tasks: [{
-				id: "4AAB0BC23EBC380D"
-				item: { count: 1, id: "create:deployer" }
-				type: "item"
-			}]
-			x: 11.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["293E73352F887DDE"]
-			id: "765978E3208F2EA5"
+			dependencies: ["6313E75642086CEC"]
+			id: "521EC12D24865033"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "6EFE4D30371D3EDA"
+				id: "30200429B8EDD5FB"
 				table_id: 1766666266666333109L
 				type: "loot"
 			}]
-			tasks: [{
-				id: "4CDA620FE2717B4C"
-				item: { count: 1, id: "create:brass_hand" }
-				type: "item"
-			}]
-			x: 9.5d
-			y: -3.5d
-		}
-		{
-			id: "293E73352F887DDE"
-			tasks: [{
-				id: "658A302291C38959"
-				item: { count: 1, id: "create:brass_ingot" }
-				type: "item"
-			}]
-			x: 8.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["6313E75642086CEC"]
-			id: "521EC12D24865033"
+			shape: "diamond"
 			size: 2.5d
 			tasks: [{
 				dimension: "aether:the_aether"
@@ -294,34 +194,14 @@
 			y: 0.0d
 		}
 		{
-			id: "22637C43498D2A4A"
+			id: "75F12146846C917D"
 			tasks: [{
-				id: "37F1BDF01551B7E0"
-				item: { count: 1, id: "create:empty_blaze_burner" }
-				type: "item"
+				dimension: "minecraft:the_nether"
+				id: "09DEEB36CD2D2724"
+				type: "dimension"
 			}]
-			x: 5.5d
-			y: -1.5d
-		}
-		{
-			id: "739FE16B1451530C"
-			tasks: [{
-				id: "028FA7CF2A60F9A3"
-				item: { count: 1, id: "create:zinc_ingot" }
-				type: "item"
-			}]
-			x: 4.0d
-			y: -3.5d
-		}
-		{
-			id: "2E1EAE3181065E0C"
-			tasks: [{
-				id: "3AA4EEAE9B5642C3"
-				item: { count: 1, id: "minecraft:copper_ingot" }
-				type: "item"
-			}]
-			x: 3.0d
-			y: -1.5d
+			x: 21.5d
+			y: 4.5d
 		}
 	]
 }

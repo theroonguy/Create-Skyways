@@ -3,7 +3,7 @@
 'legs' : '',
 'feet' : '',
 'offhand' : '',
-0 : '',
+0 : '{count:1,id:"paraglider:paraglider"}',
 1 : '',
 2 : '',
 3 : '',

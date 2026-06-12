@@ -38,6 +38,20 @@ ServerEvents.recipes(event => {
         M: 'ars_technica:mark_of_technomancy',
         L: 'minecraft:glowstone',
     })
+
+    // Ender eye
+    event.remove({ output: 'minecraft:ender_eye' })
+
+    event.shaped('minecraft:ender_eye', [
+        ' G ',
+        'BPB',
+        ' S '
+    ], {
+        G: 'aether:enchanted_gravitite',
+        P: 'minecraft:ender_pearl',
+        S: 'ars_nouveau:source_gem',
+        B: 'minecraft:blaze_powder'
+    })
 })
 
 ServerEvents.tags('item', event => {

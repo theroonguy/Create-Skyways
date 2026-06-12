@@ -6,11 +6,14 @@ minecraft/.vscode
 minecraft/Distant_Horizons_server_data
 minecraft/cache
 minecraft/command_history.txt
+minecraft/coremods
+minecraft/data
 minecraft/debug
 minecraft/downloads
 minecraft/dynamic-data-pack-cache
 minecraft/dynamic-resource-pack-cache
 minecraft/emi.json
+minecraft/enxv_aeronautics_structures
 minecraft/exposures
 minecraft/fancymenu_data
 minecraft/immersive_paintings_cache
